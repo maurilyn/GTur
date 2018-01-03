@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="pt-br">
+    <head>
+        <?php
+            include('meta.php');
+
+            $query = "SELECT * FROM `local` WHERE `idtipo` = 1 ORDER BY `nmlocal`";
+            $res = mysqli_query($con, $query);
+
+            function limit_text($text, $limit) {
+                if (str_word_count($text, 0) > $limit) {
+                    $words = str_word_count($text, 2);
+                    $pos = array_keys($words);
+                    $text = substr($text, 0, $pos[$limit]) . '...';
+                }
+                return $text;
+            }
+
+        ?>
+        <title>Praias | GuaruTur | Turismo Guaruj&aacute;</title>
+    <body>
+        <menu>
+            <?php
+                include('menu.php');
+            ?>
+        </menu>
+        <main>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-10 offset-md-1">
+                        <div class="row">
+                            <hr>
+                        </div>
+                        <nav aria-label="breadcrumb" role="navigation">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="/">Inicio</a></li>
+                                <li class="breadcrumb-item active" aria-current="page"><img src="https://png.icons8.com/beach/androidL/24/000000"> Praias</li>
+                            </ol>
+                        </nav>
+                        <div class="row">
+                            <div class="col-md-10 offset-md-1">
+                                <h1><img src="https://png.icons8.com/beach/androidL/48/000000"> Praias de Guaruj&aacute;</h1>
+                            </div>
+                        </div>
+                        <?php
+                            while($r = mysqli_fetch_assoc($res)){
+                                echo "
+                                    <div class='row'>
+                                        <div class='col-md-3 offset-md-1'>
+                                            <img src='rs/img/" . $r[dsfoto] . "' class='rounded img-thumbnail' alt=" . $r[nmlocal] . ">
+                                        </div>
+                                        <div class='col-md-7'>
+                                            <h5>
+                                                " . $r[nmlocal] . "<br>
+                                                <small class='text-muted'>Extens&atilde;o: " . $r[dsextensao] . " metros</small>
+                                            </h5>
+                                            <p>" . limit_text($r[dslocal], 80) . "</p>
+                                            <form method='post' action='showpraia.php'>
+                                                <input type='hidden' name='idlocal' value='" . $r[idlocal] . "'>
+                                                <input type='submit' class='btn btn-outline-info' value='Veja Mais'>
+                                            </form>
+                                        </div>
+                                    </div>
+                                    <hr>
+                                ";
+                            }
+                        ?>
+                        <div class="row">
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <?php
+                include('footer.php');
+            ?>
+        </footer>
+    </body>
+</html>

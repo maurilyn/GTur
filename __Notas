@@ -1,0 +1,13 @@
+Paleta:
+
+https://coolors.co/3c91e6-9fd356-342e37-fafffd-fa824c
+
+
+Icons:
+
+https://icons8.com/
+
+
+Mapa:
+
+<iframe class="sombra" width="600" height="600" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyASyT70pbnOqbTVWFnMG17yDFzw_kWZXNo&q=<?=$r[dslocalizacao]?>" allowfullscreen></iframe>
