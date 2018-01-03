@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="pt-br">
+    <head>
+        <?php
+            include('meta.php');
+        ?>
+        <title>Dados Gerais | GuaruTur | Turismo Guaruj&aacute;</title>
+    <body>
+        <menu>
+            <?php
+                include('menu.php');
+            ?>
+        </menu>
+        <main>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-10 offset-md-1">
+                        <div class="row">
+                            <hr>
+                        </div>
+                        <nav aria-label="breadcrumb" role="navigation">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="/">Inicio</a></li>
+                                <li class="breadcrumb-item active" aria-current="page"><img src="https://png.icons8.com/ios/24/000000/data-sheet-filled.png"> Dados Gerais</li>
+                            </ol>
+                        </nav>
+                        <img src="rs/img/BrasaoGuaruja.png" alt="Brasão de Guaruj&aacute;" class="img-thumbnail float-right">
+                        <div class="row">
+                            <div class="col-md-10 offset-md-1">
+                                <h1><img src="https://png.icons8.com/ios/48/000000/data-sheet-filled.png"> Dados Gerais</h1>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <hr>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-10 offset-md-1">
+                                <ul>
+                                    <li>
+                                        <strong>Funda&ccedil;&atilde;o:</strong> 2 de setembro de 1893
+                                    </li>
+                                    <li>
+                                        <strong>Gent&iacute;lico:</strong> Guarujaense
+                                    </li>
+                                    <li>
+                                        <strong>Lema:</strong> <i>"Pro Mare Nostrum"</i> Para o nosso mar
+                                    </li>
+                                    <li>
+                                        <strong>Prefeito:</strong> Valter Suman (PSB) - (2017-2020)
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <hr>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-8 offset-md-1">
+                                <h4>Dados Demogr&aacute;ficos</h4>
+                                <table class="table table-striped table-hover">
+                                    <tbody>
+                                        <tr>
+                                            <td scope="row">Popula&ccedil;&atilde;o estimada [2017]</td>
+                                            <td>315.563 pessoas</td>
+                                        </tr>
+                                        <tr>
+                                            <td scope="row">Popula&ccedil;&atilde;o no &uacute;ltimo censo [2010]</td>
+                                            <td>290.752 pessoas</td>
+                                        </tr>
+                                        <tr>
+                                            <td scope="row">&Aacute;rea da unidade territorial [2016]</td>
+                                            <td>144,794 km<sup>2</sup></td>
+                                        </tr>
+                                        <tr>
+                                            <td scope="row">Densidade demogr&aacute;fica [2010]</td>
+                                            <td>2.026,80 hab/km<sup>2</sup></td>
+                                        </tr>
+                                    </tbody>
+                                    <tfooter>
+                                        <tr class="table-info">
+                                            <td colspan=2>
+                                                Fonte: <a href="https://cidades.ibge.gov.br/brasil/sp/guaruja/panorama" target="_new">IBGE | Panorama | Guaruj&aacute;</a>
+                                            </td>
+                                        </tr>
+                                    </tfooter>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <hr>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-10 offset-md-1">
+                                <h4>Feriados Locais</h4>
+                                <ul>
+                                    <li>
+                                        <strong>Janeiro:</strong> 15 - Feriado Municipal - Dia do Padroeiro - Santo Amaro
+                                    </li>
+                                    <li>
+                                        <strong>Junho:</strong> 30 - Emancipa&ccedil;&atilde;o Pol&iacute;tico Administrativa do Munic&iacute;pio
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <?php
+                include('footer.php');
+            ?>
+        </footer>
+    </body>
+</html>

@@ -24,9 +24,9 @@
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                     <a class="dropdown-item" href="/comochegar.php">Como Chegar</a>
-                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="/historia.php">Hist&oacute;ria</a>
                     <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">Something else here</a>
+                    <a class="dropdown-item" href="/dadosgerais.php">Dados Gerais</a>
                 </div>
             </li>
         </ul>
