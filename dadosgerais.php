@@ -24,17 +24,10 @@
                                 <li class="breadcrumb-item active" aria-current="page"><img src="https://png.icons8.com/ios/24/000000/data-sheet-filled.png"> Dados Gerais</li>
                             </ol>
                         </nav>
-                        <img src="rs/img/BrasaoGuaruja.png" alt="Brasão de Guaruj&aacute;" class="img-thumbnail float-right">
                         <div class="row">
-                            <div class="col-md-10 offset-md-1">
+                            <div class="col-md-5 offset-md-1">
                                 <h1><img src="https://png.icons8.com/ios/48/000000/data-sheet-filled.png"> Dados Gerais</h1>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <hr>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-10 offset-md-1">
+                                <hr>
                                 <ul>
                                     <li>
                                         <strong>Funda&ccedil;&atilde;o:</strong> 2 de setembro de 1893
@@ -49,13 +42,7 @@
                                         <strong>Prefeito:</strong> Valter Suman (PSB) - (2017-2020)
                                     </li>
                                 </ul>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <hr>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-8 offset-md-1">
+                                <hr>
                                 <h4>Dados Demogr&aacute;ficos</h4>
                                 <table class="table table-striped table-hover">
                                     <tbody>
@@ -84,14 +71,8 @@
                                         </tr>
                                     </tfooter>
                                 </table>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <hr>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-10 offset-md-1">
                                 <h4>Feriados Locais</h4>
+                                <hr>
                                 <ul>
                                     <li>
                                         <strong>Janeiro:</strong> 15 - Feriado Municipal - Dia do Padroeiro - Santo Amaro
@@ -100,6 +81,9 @@
                                         <strong>Junho:</strong> 30 - Emancipa&ccedil;&atilde;o Pol&iacute;tico Administrativa do Munic&iacute;pio
                                     </li>
                                 </ul>
+                            </div>
+                            <div class="col-md-5">
+                                <img src="rs/img/BrasaoGuaruja.png" alt="Brasão de Guaruj&aacute;" class="img-thumbnail float-right">
                             </div>
                         </div>
                     </div>
