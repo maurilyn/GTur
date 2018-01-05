@@ -18,6 +18,23 @@
 <?php
     include('con.php');
     header("Content-type: text/html; charset=iso-8859-1");
+    
+    $fundo = rand(0,3);
+
+    switch ($fundo) {
+        case 0:
+            $fd = "PraiaConchas.jpg";
+            break;
+        case 1:
+            $fd = "MiranteGalhetas.jpg";
+            break;
+        case 2:
+            $fd = "PraiaMoises.jpg";
+            break;
+        case 3:
+            $fd = "PraiaPereque.jpg";
+            break;
+    }    
 ?>
 
 <style> 
@@ -31,7 +48,7 @@
 
 body{
     margin-top: 55px;
-    background-image:url('rs/img/EnseadaAerea.jpg');
+    background-image:url('rs/img/<?=$fd?>');
     background-attachment:fixed;
     background-repeat:no-repeat;
     background-size:cover;    
