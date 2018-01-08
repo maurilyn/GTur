@@ -30,19 +30,34 @@
                                         <div class="carousel-item active">
                                             <img class="d-block w-100" src="rs/img/SlideTombo.jpg" class="img-fluid" alt="Praia do Tombo">
                                             <div class="carousel-caption d-none d-md-block">
-                                                <h2>Tombo</h2>
+                                                <h2>Praia do Tombo</h2>
+                                                <p>A praia &eacute; palco de campeonatos de surf de n&iacute;vel nacional e local preferido para treino de profissionais do esporte.</p>
+                                                <form method='post' action='showpraia.php'>
+                                                    <input type='hidden' name='idlocal' value='11'>
+                                                    <input type='submit' class='btn btn-info' value='Saiba Mais'>
+                                                </form>
                                             </div>
                                         </div>
                                         <div class="carousel-item">
                                             <img class="d-block w-100" src="rs/img/SlideAsturias.jpg" class="img-fluid" alt="Praia das Astúrias">
                                             <div class="carousel-caption d-none d-md-block">
                                                 <h2>Ast&uacute;rias</h2>
+                                                <p>Praia badalada, bonita e boa para banho.</p>
+                                                <form method='post' action='showpraia.php'>
+                                                    <input type='hidden' name='idlocal' value='12'>
+                                                    <input type='submit' class='btn btn-info' value='Saiba Mais'>
+                                                </form>
                                             </div>
                                         </div>
                                         <div class="carousel-item">
                                             <img class="d-block w-100" src="rs/img/SlideEnseada.jpg" class="img-fluid" alt="Praia da Enseada">
                                             <div class="carousel-caption d-none d-md-block">
                                                 <h2>Enseada</h2>
+                                                <p>Praia onde h&aacute; a maior concentra&ccedil;&atilde;o de hot&eacute;is e pousadas da cidade e importantes eventos esportivos s&atilde;o realizados no agito do ver&atilde;o.</p>
+                                                <form method='post' action='showpraia.php'>
+                                                    <input type='hidden' name='idlocal' value='14'>
+                                                    <input type='submit' class='btn btn-info' value='Saiba Mais'>
+                                                </form>
                                             </div>
                                         </div>
                                     </div>
@@ -97,7 +112,7 @@
                                     <img class="card-img-top" src="rs/img/AquarioAcquaMundo.jpg" alt="Acqua Mundo">
                                     <div class="card-body">
                                         <p class="card-text">Atra&ccedil;&otilde;es e marcos hist&oacute;ricos s&atilde;o algumas das &oacute;timas op&ccedil;&otilde;es de visita na cidade.</p>
-                                        <a href="#" class="btn btn-primary">Veja mais</a>
+                                        <a href="/atrativos.php" class="btn btn-primary">Veja mais</a>
                                         </div>
                                 </div>                        
                             </div>
