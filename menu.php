@@ -20,14 +20,17 @@
             </li>
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    + Informa&ccedil;&otilde;es
+                    <img src="https://png.icons8.com/metro/24/000000/plus-2-math.png"> Informa&ccedil;&otilde;es
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="/comochegar.php">Como Chegar</a>
-                    <a class="dropdown-item" href="/historia.php">Hist&oacute;ria</a>
+                    <a class="dropdown-item" href="/comochegar.php"><img src="https://png.icons8.com/ios/24/000000/adventure.png"> Como Chegar</a>
+                    <a class="dropdown-item" href="/historia.php"><img src="https://png.icons8.com/ios/24/000000/quill-with-ink-filled.png"> Hist&oacute;ria</a>
                     <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="/dadosgerais.php">Dados Gerais</a>
+                    <a class="dropdown-item" href="/dadosgerais.php"><img src="https://png.icons8.com/ios/24/000000/data-sheet-filled.png"> Dados Gerais</a>
                 </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contato.php"><img src="https://png.icons8.com/metro/24/000000/speech-bubble.png"> Contato</a>
             </li>
         </ul>
     </div>
