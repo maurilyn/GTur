@@ -40,7 +40,7 @@ $arquivo = "
                   <td width='320'>Telefone: <b>$tel</b></td>
                 </tr>
      <tr>
-                  <td width='320'>Assunto: $escolhas</td>
+                  <td width='320'>Assunto: $assunto</td>
                 </tr>
                 <tr>
                   <td width='320'>Mensagem: $mensagem</td>
@@ -66,10 +66,10 @@ $arquivo = "
       $headers .= 'From: $nome <$email>';
   //$headers .= "Bcc: $EmailPadrao\r\n";
   
-  $enviaremail = mail($destino, $assunto, $arquivo, $headers);
+  $enviaremail = mail($destino, $assunto, $arquivo, $headers, "-f$destino");
   if($enviaremail){
   $mgm = "E-MAIL ENVIADO COM SUCESSO! <br> O link será enviado para o e-mail fornecido no formulário";
-  echo " <meta http-equiv='refresh' content='10;URL=contato.php'>";
+  echo " <meta http-equiv='refresh' content='1;URL=contatok.php'>";
   } else {
   $mgm = "ERRO AO ENVIAR E-MAIL!";
   echo "";
