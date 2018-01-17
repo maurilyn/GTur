@@ -3,7 +3,7 @@
 $nome = $_POST['nome'];
 $email = $_POST['email'];
 $tel = $_POST['tel'];
-$assunto = $_POST['assunto'];
+$tipo = $_POST['assunto'];
 $mensagem = $_POST['mensagem'];
 $data_envio = date('d/m/Y');
 $hora_envio = date('H:i:s');
@@ -40,7 +40,7 @@ $arquivo = "
                   <td width='320'>Telefone: <b>$tel</b></td>
                 </tr>
      <tr>
-                  <td width='320'>Assunto: $assunto</td>
+                  <td width='320'>Assunto: $tipo</td>
                 </tr>
                 <tr>
                   <td width='320'>Mensagem: $mensagem</td>
@@ -51,8 +51,7 @@ $arquivo = "
             <td>Este e-mail foi enviado em <b>$data_envio</b> às <b>$hora_envio</b></td>
           </tr>
         </table>
-    </html>
-  ";
+    </html>";
 
   
   // emails para quem será enviado o formulário
@@ -66,10 +65,10 @@ $arquivo = "
       $headers .= 'From: $nome <$email>';
   //$headers .= "Bcc: $EmailPadrao\r\n";
   
-  $enviaremail = mail($destino, $assunto, $arquivo, $headers, "-f$destino");
+  $enviaremail = mail($destino, $assunto, $arquivo, $headers, '-r'.$destino);
   if($enviaremail){
   $mgm = "E-MAIL ENVIADO COM SUCESSO! <br> O link será enviado para o e-mail fornecido no formulário";
-  echo " <meta http-equiv='refresh' content='1;URL=contatok.php'>";
+  echo " <meta http-equiv='refresh' content='0.5;URL=contatok.php'>";
   } else {
   $mgm = "ERRO AO ENVIAR E-MAIL!";
   echo "";

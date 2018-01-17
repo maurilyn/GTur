@@ -33,7 +33,7 @@
                         </div>
                         <nav aria-label="breadcrumb" role="navigation">
                             <ol class="breadcrumb">
-                                <li class="breadcrumb-item"><a href="/">Inicio</a></li>
+                                <li class="breadcrumb-item"><a href="/"><img src="https://png.icons8.com/ios-glyphs/24/000000/cottage.png"> Inicio</a></li>
                                 <li class="breadcrumb-item active" aria-current="page"><img src="https://png.icons8.com/ios/24/000000/souvenirs-filled.png"> Atrativos</li>
                             </ol>
                         </nav>
