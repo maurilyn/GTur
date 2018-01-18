@@ -13,6 +13,5 @@ Mapa:
 <iframe class="sombra" width="600" height="600" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyASyT70pbnOqbTVWFnMG17yDFzw_kWZXNo&q=<?=$r[dslocalizacao]?>" allowfullscreen></iframe>
 
 
-Exemplo de filtro JQUERY
-
-http://jsfiddle.net/utluiz/suCtE/
+Filtro JQUERY
+https://codepen.io/maurilyn/pen/VyVXZj

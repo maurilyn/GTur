@@ -6,7 +6,7 @@
             
             $acesso = isset($_GET['q']) ? $_GET['q'] : '';
             
-            $query = "SELECT * FROM `local` WHERE `idtipo` = 1 AND `dshorario` LIKE '%$acesso%' ORDER BY `nmlocal`";
+            $query = "SELECT * FROM `local` WHERE `idtipo` = 1 AND `dshorario` LIKE '%$acesso%' ORDER BY `idlocal`";
             $res = mysqli_query($con, $query);
 
             function limit_text($text, $limit) {
@@ -42,17 +42,16 @@
                         <div class="row">
                         </div>
                         <div class="row">
-                            <div class="col-md-4 offset-md-1">
+                            <div class="col-md-5 offset-md-1">
                                 <h1><img src="https://png.icons8.com/beach/androidL/48/000000"> Praias</h1>
                             </div>
-                            <div class="col-md-6">
+                            <div class="col-md-5">
                                 <div class="alert alert-dark text-center" role="alert">
                                     Filtrar por acesso:
                                     <a href="praias.php" class="alert-link">Todas</a> | 
                                     <a href="praias.php?q=livre" class="alert-link">Livre</a> | 
                                     <a href="praias.php?q=restrito" class="alert-link">Restrito</a> | 
-                                    <a href="praias.php?q=trilha" class="alert-link">Trilha</a> | 
-                                    <a href="praias.php?q=mar" class="alert-link">Mar</a>
+                                    <a href="praias.php?q=trilha" class="alert-link">Trilha</a>
                                 </div>
                             </div>
                             <div class="col-md-10 offset-md-1">
