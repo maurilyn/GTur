@@ -16,7 +16,7 @@
             $r = mysqli_fetch_assoc($res);
 
         ?>
-        <title><?=$r[nmtipo]?> <?=$r[nmlocal]?> | Atrativos | GuaruTur | Turismo Guaruj&aacute;</title>
+        <title><?=$r[nmtipo]?> - <?=$r[nmlocal]?> | Atrativos | GuaruTur | Turismo Guaruj&aacute;</title>
     <body>
         <menu>
             <?php
@@ -39,7 +39,7 @@
                         </nav>
                         <div class="row">
                             <div class="col-md-8 offset-md-2">
-                                <h1><?=$r[nmtipo]?> <?=$r[nmlocal]?> <img src="https://png.icons8.com/ios/48/000000/souvenirs-filled.png"></h1>
+                                <h1><?=$r[nmtipo]?> - <?=$r[nmlocal]?> <img src="https://png.icons8.com/ios/48/000000/souvenirs-filled.png"></h1>
                                 <?php
                                     if($r[dsfoto] != NULL){
                                 ?>

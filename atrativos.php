@@ -4,7 +4,7 @@
         <?php
             include('meta.php');
 
-            $query = "SELECT * FROM `local` JOIN `tipo` ON `local`.`idtipo`=`tipo`.`idtipo` WHERE `local`.`idtipo` = 3 OR `local`.`idtipo` = 5 OR `local`.`idtipo` = 6 ORDER BY `tipo`.`nmtipo`";
+            $query = "SELECT * FROM `local` JOIN `tipo` ON `local`.`idtipo`=`tipo`.`idtipo` WHERE `local`.`idtipo` = 3 OR `local`.`idtipo` = 5 OR `local`.`idtipo` = 6 OR `local`.`idtipo` = 9 ORDER BY `tipo`.`nmtipo`";
             $res = mysqli_query($con, $query);
 
             function limit_text($text, $limit) {

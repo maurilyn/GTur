@@ -19,6 +19,13 @@
                             <hr>
                         </div>
                         <div class="row">
+                            <div class="col-md-10 offset-md-1">
+                                <div class="alert alert-info text-center" role="alert">
+                                    <h1 style="font-size:30px;">GuaruTur, o mais completo site de informa&ccedil;&otilde;es tur&iacute;sticas de Guaruj&aacute; - SP</h1>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
                             <div class="col-md-7">
                                 <div id="carouselExampleIndicators" class="carousel slide sombra" data-ride="carousel">
                                     <ol class="carousel-indicators">
@@ -97,7 +104,7 @@
                                     <div class="card-header">
                                         <h2 style="color:#342E37;text-align:center;">Compras</h2>
                                     </div>                            
-                                    <img class="card-img-top" src="rs/img/ShoppingJequiti.jpg" alt="La Plage">
+                                    <img class="card-img-top" src="rs/img/ShoppingJequiti.jpg" alt="Shopping Jequiti">
                                     <div class="card-body">
                                         <p class="card-text">Os Shoppings e as feiras de artesanatos da cidade oferecem diversas op&ccedil;&otilde;es de compras para atender todos os tipos de pessoas, moradores locais ou visitantes.</p>
                                         <a href="/compras.php" class="btn btn-primary">Veja mais</a>

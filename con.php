@@ -2,6 +2,7 @@
 
     header("Content-type: text/html; charset=iso-8859-1");
 
+    // mysql785.umbler.com
     $host = "127.0.0.1";
     $user = "maurilyn";             //Your Cloud 9 username
     $pass = "";                     //Remember, there is NO password by default!
