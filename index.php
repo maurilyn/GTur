@@ -4,7 +4,7 @@
         <?php
             include('meta.php');
         ?>
-        <title>GuaruTur | Turismo Guaruj&aacute;</title>
+        <title>GuaruTur | Turismo Guarujá</title>
     <body>
         <menu>
             <?php

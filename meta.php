@@ -17,11 +17,15 @@
 </script>
 
 <meta charset="utf-8" >
+<meta name="robots" content="index, follow">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="description" content="GuaruTur, o mais completo site de informações turísticas de Guarujá - SP. Famosa pelas suas belezas naturais, praias que cercam a região e por seu potencial turístico, é considerada uma das cidades mais bonitas do litoral, conhecida também como Pérola do Atlântico. Mirantes, trilhas e Marcos históricos da cidade de Guarujá - SP. Localize os melhores locais para compras e entretenimento em Guarujá - SP" />
+<meta name="keywords" content="Guarujá, Turismo, Praia, Trilha, Mirante, Atrativos, Compras, Roteiros"/>
+
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
 
 
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 <?php
     include('con.php');
