@@ -4,7 +4,7 @@
         <?php
             include('meta.php');
         ?>
-        <title>GuaruTur | Turismo Guarujá</title>
+        <title>GuaruTur | Turismo Guaruj&aacute;</title>
     <body>
         <menu>
             <?php
@@ -84,6 +84,14 @@
                                     </a>
                                 </div>                    
                             </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12 text-center">
+                                <a href="http://amzn.to/2F7sD7s" target="amazon"><img src="rs/img/banner_amazon_cozinha_728x90.jpg"></a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <hr>
                         </div>
                         <div class="row">
                             <div class="col-md-3">
