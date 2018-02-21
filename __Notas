@@ -15,3 +15,12 @@ Mapa:
 
 Filtro JQUERY
 https://codepen.io/maurilyn/pen/VyVXZj
+
+
+Fontes:
+<link href="https://fonts.googleapis.com/css?family=Acme|Handlee|Permanent+Marker" rel="stylesheet">
+
+font-family: 'Acme', sans-serif;
+font-family: 'Permanent Marker', cursive;
+font-family: 'Handlee', cursive;
+font-family: 'Josefin Sans', sans-serif;

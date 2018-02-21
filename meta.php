@@ -49,6 +49,8 @@
     }    
 ?>
 
+<link href="https://fonts.googleapis.com/css?family=Aclonica|Acme|Handlee|Josefin+Sans|Kaushan+Script|Salsa" rel="stylesheet">
+
 <style> 
 .sombra {
     box-shadow: 10px 10px 8px #AAAAAA;
@@ -63,6 +65,6 @@ body{
     background-image:url('rs/img/<?=$fd?>');
     background-attachment:fixed;
     background-repeat:no-repeat;
-    background-size:cover;    
+    background-size:cover; 
 }
 </style>

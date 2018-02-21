@@ -1,10 +1,10 @@
 <nav class="navbar navbar-expand-lg fixed-top navbar-light" style="background-color: #9fd356;">
-    <a class="navbar-brand" href="/"><img src="rs/img/GT.png" width="50" class="d-inline-block align-top"><b>GuaruTur</b></a>
+    <a class="navbar-brand" href="/" style="font-family: 'Kaushan Script', cursive;font-size:22px;"><img src="rs/img/GT.png" width="50" class="d-inline-block align-top"><b>GuaruTur</b></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
     
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <div class="collapse navbar-collapse" id="navbarSupportedContent" style="font-family: 'Aclonica', sans-serif;">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item">
                 <a class="nav-link" href="praias.php"><img src="https://png.icons8.com/beach/androidL/24/000000"> Praias</a>

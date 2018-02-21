@@ -14,22 +14,22 @@
         <main>
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-md-10 offset-md-1">
+                    <div class="col-md-12">
                         <div class="row align-items-center">
                             <hr>
                         </div>
                         <div class="row align-items-center">
-                            <div class="col-md-10 offset-md-1">
-                                <div class="alert alert-light text-center" role="alert">
-                                    <h1 style="font-size:30px;color:black;">GuaruTur, o mais completo site de informa&ccedil;&otilde;es tur&iacute;sticas de Guaruj&aacute; - SP</h1>
+                            <div class="col-md-12">
+                                <div class="alert alert-secondary text-center" role="alert">
+                                    <h1 style="font-family: 'Acme', sans-serif;font-size:30px;color:black;">GuaruTur, o mais completo site de informa&ccedil;&otilde;es tur&iacute;sticas de Guaruj&aacute; - SP</h1>
                                 </div>
                             </div>
                         </div>
                         <div class="row align-items-center">
                             <div class="col-md-5 text-justify">
                                 <h2 class="text-center" style="font-size:25px;">Guaruj&aacute;, A P&eacute;rola do Atl&acirc;ntico</h2>
-                                <p style="text-indent: 1.5em; font-size:15px;">Famosa pelas suas belezas naturais, praias que cercam a regi&atilde;o e por seu potencial tur&iacute;stico, &eacute; considerada uma das cidades mais bonitas do litoral, conhecida tamb&eacute;m como "P&eacute;rola do Atl&acirc;ntico".</p>
-                                <p style="text-indent: 1.5em; font-size:15px;">Possui 27 praias de todos os tamanhos, de v&aacute;rias cores, de &aacute;guas limpas e mar aberto, cada uma com sua particularidade, iluminadas pelo sol e sorriso das crian&ccedil;as e dos surfistas. Al&eacute;m disso, uma delas, a Praia do Tombo, &eacute; a &uacute;nica do Brasil a receber o selo internacional Bandeira Azul. Ao longo dos 22 km das praias guarujaenses, voc&ecirc; encontrar&aacute; trilhas selvagens para praias paradis&iacute;acas, como as praias de Cheira-Lim&atilde;o ou Cambur&iacute;, praias bem movimentadas e de beleza sem igual, como as praias da Pitangueiras ou Enseada, praias distantes, pouco frequentadas e de f&aacute;cil acesso, como &eacute;den e Mar Casado.</p>
+                                <p style="text-indent: 1.5em; font-size:15px;margin: 0;">Famosa pelas suas belezas naturais, praias que cercam a regi&atilde;o e por seu potencial tur&iacute;stico, &eacute; considerada uma das cidades mais bonitas do litoral, conhecida tamb&eacute;m como "P&eacute;rola do Atl&acirc;ntico".</p>
+                                <p style="text-indent: 1.5em; font-size:15px;">Possui 27 praias de todos os tamanhos, de v&aacute;rias cores, de &aacute;guas limpas e mar aberto, cada uma com sua particularidade, iluminadas pelo sol e sorriso das crian&ccedil;as e dos surfistas. Al&eacute;m disso, uma delas, a Praia do Tombo, &eacute; a &uacute;nica do Brasil a receber o selo internacional Bandeira Azul. Ao longo dos 22 km das praias guarujaenses, voc&ecirc; encontrar&aacute; trilhas selvagens para praias paradis&iacute;acas, como as praias de Cheira-Lim&atilde;o ou Cambur&iacute;, praias bem movimentadas e de beleza sem igual, como as praias da Pitangueiras ou Enseada, praias distantes, pouco frequentadas e de f&aacute;cil acesso, como &Eacute;den e Mar Casado.</p>
                                 <p style="text-indent: 1.5em; font-size:15px;">Mas Guaruj&aacute; oferece muito mais: Trilhas que contam hist&oacute;ria e emocionam; Mirantes com vista para cen&aacute;rios realmente vibrantes; Ilhas rodeadas por &aacute;guas multicoloridas; Fortes, Fortalezas e Pavilh&otilde;es que fazem sentir a nostalgia do passado e encantam tamb&eacute;m pelos personagens que deixaram pegadas na hist&oacute;ria.</p>
                             </div>
                             <div class="col-md-7">
@@ -97,7 +97,7 @@
                             <div class="col-md-3">
                                 <div class="card h-100 sombra">
                                     <div class="card-header">
-                                        <h2 style="color:#FA824C;text-align:center;">Praias do Guaruj&aacute;</h2>
+                                        <h2 style="font-family: 'Salsa', cursive;color:#FA824C;text-align:center;font-weight:lighter;">Praias do Guaruj&aacute;</h2>
                                     </div>                            
                                     <img class="card-img-top" src="rs/img/PraiaSacodoMajor.jpg" alt="Praia do Saco do Major">
                                     <div class="card-body">
@@ -110,7 +110,7 @@
                             <div class="col-md-3">
                                 <div class="card h-100 sombra">
                                     <div class="card-header">
-                                        <h2 style="color:#342E37;text-align:center;">Compras</h2>
+                                        <h2 style="font-family: 'Salsa', cursive;color:#342E37;text-align:center;">Compras</h2>
                                     </div>                            
                                     <img class="card-img-top" src="rs/img/ShoppingRussi.jpg" alt="Shopping Russi">
                                     <div class="card-body">
@@ -122,7 +122,7 @@
                             <div class="col-md-3">
                                 <div class="card h-100 sombra">
                                     <div class="card-header">
-                                        <h2 style="color:#3C91E6;text-align:center;">O que fazer</h2>
+                                        <h2 style="font-family: 'Salsa', cursive;color:#3C91E6;text-align:center;">O que fazer</h2>
                                     </div>                            
                                     <img class="card-img-top" src="rs/img/AquarioAcquaMundo.jpg" alt="Acqua Mundo">
                                     <div class="card-body">
@@ -134,7 +134,7 @@
                             <div class="col-md-3">
                                 <div class="card h-100 sombra">
                                     <div class="card-header">
-                                        <h2 style="color:#9FD356;text-align:center;">Vale a Visita</h2>
+                                        <h2 style="font-family: 'Salsa', cursive;color:#9FD356;text-align:center;">Vale a Visita</h2>
                                     </div>                            
                                     <img class="card-img-top" src="rs/img/MiranteGavea.jpg" alt="Mirante da Gavea">
                                     <div class="card-body">

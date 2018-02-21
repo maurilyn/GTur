@@ -69,7 +69,7 @@
                                             <img src='rs/img/" . $r[dsfoto] . "' class='rounded img-thumbnail' alt=" . $r[nmlocal] . ">
                                         </div>
                                         <div class='col-md-7'>
-                                            <h5>
+                                            <h5 style='font-family: Handlee, cursive;font-weight:bolder;'>
                                                 " . $r[nmlocal] . "<br>
                                                 <small class='text-muted'>Extens&atilde;o: " . $r[dsextensao] . " metros</small>
                                             </h5>
