@@ -86,11 +86,6 @@
                             </div>
                         </div>
                         <div class="row align-items-center">
-                            <div class="col-md-12 text-center">
-                                <a href="http://amzn.to/2F7sD7s" target="amazon"><img class="img-fluid" src="rs/img/banner_amazon_cozinha_728x90.jpg"></a>
-                            </div>
-                        </div>
-                        <div class="row align-items-center">
                             <hr>
                         </div>
                         <div class="row">
