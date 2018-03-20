@@ -4,16 +4,20 @@
         <?php
             include('meta.php');
             
-            if($_SERVER['REQUEST_METHOD'] === 'POST'){
-                $idlocal = ( isset($_POST['idlocal']) ) ? $_POST['idlocal'] : null;
+            if($_SERVER['REQUEST_METHOD'] === 'GET'){
+                $id = ( isset($_GET['id']) ) ? $_GET['id'] : null;
             } else {
                 header('Location: mirantes.php');
             }
 
 
-            $query = "SELECT * FROM `local` WHERE `idlocal` = $idlocal";
+            $query = "SELECT * FROM `local` WHERE `idtipo` = 2 AND `idlocal` = $id";
             $res = mysqli_query($con, $query);
             $r = mysqli_fetch_assoc($res);
+            
+            if($r == null){
+                header('Location: mirantes.php');
+            }
 
         ?>
         <title><?=$r[nmlocal]?> | Mirante | GuaruTur | Turismo Guaruj&aacute;</title>
@@ -39,7 +43,7 @@
                         </nav>
                         <div class="row">
                             <div class="col-md-8 offset-md-2">
-                                <h1><?=$r[nmlocal]?> <img src="https://png.icons8.com/ios/48/000000/xlarge-icons-filled.png"></h1>
+                                <h1>Mirante <?=$r[nmlocal]?> <img src="https://png.icons8.com/ios/48/000000/xlarge-icons-filled.png"></h1>
                                 <?php
                                     if($r[dsfoto] != NULL){
                                 ?>

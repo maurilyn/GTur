@@ -4,17 +4,21 @@
         <?php
             include('meta.php');
             
-            if($_SERVER['REQUEST_METHOD'] === 'POST'){
-                $idlocal = ( isset($_POST['idlocal']) ) ? $_POST['idlocal'] : null;
+            if($_SERVER['REQUEST_METHOD'] === 'GET'){
+                $id = ( isset($_GET['id']) ) ? $_GET['id'] : null;
             } else {
-                header('Location: mirantes.php');
+                header('Location: compras.php');
             }
 
 
-            $query = "SELECT * FROM `local` JOIN `tipo` ON `local`.`idtipo`=`tipo`.`idtipo` WHERE `idlocal` = $idlocal";
+            $query = "SELECT * FROM `local` JOIN `tipo` ON `local`.`idtipo`=`tipo`.`idtipo` WHERE (`local`.`idtipo` = 7 OR `local`.`idtipo` = 8) AND `idlocal` = $id";
             $res = mysqli_query($con, $query);
             $r = mysqli_fetch_assoc($res);
 
+            if($r == null){
+                header('Location: compras.php');
+            }
+            
         ?>
         <title><?=$r[nmtipo]?> <?=$r[nmlocal]?> | Compras | GuaruTur | Turismo Guaruj&aacute;</title>
     <body>

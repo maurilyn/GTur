@@ -55,14 +55,11 @@
                                             <img src='rs/img/" . $foto . "' class='rounded img-thumbnail' alt=" . $r[nmlocal] . ">
                                         </div>
                                         <div class='col-md-7'>
-                                            <h5>
+                                            <h5 style='font-family: Handlee, cursive;font-weight:bolder;'>
                                                 " . $r[nmlocal] . "
                                             </h5>
                                             <p>" . limit_text($r[dslocal], 80) . "</p>
-                                            <form method='post' action='showatrativo.php'>
-                                                <input type='hidden' name='idlocal' value='" . $r[idlocal] . "'>
-                                                <input type='submit' class='btn btn-outline-info' value='Saiba Mais'>
-                                            </form>
+                                            <p><a class='btn btn-outline-info' role='button' aria-pressed='true' href='showatrativo.php?id=" . $r[idlocal] . "&nm=" . $r[nmlocal] . "'>Veja Mais</a></p>
                                         </div>
                                     </div>
                                     <hr>

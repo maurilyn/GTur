@@ -4,17 +4,21 @@
         <?php
             include('meta.php');
             
-            if($_SERVER['REQUEST_METHOD'] === 'POST'){
-                $idlocal = ( isset($_POST['idlocal']) ) ? $_POST['idlocal'] : null;
+            if($_SERVER['REQUEST_METHOD'] === 'GET'){
+                $id = ( isset($_GET['id']) ) ? $_GET['id'] : null;
             } else {
                 header('Location: praias.php');
             }
 
 
-            $query = "SELECT * FROM `local` WHERE `idlocal` = $idlocal";
+            $query = "SELECT * FROM `local` WHERE `idtipo` = 1 AND `idlocal` = $id";
             $res = mysqli_query($con, $query);
             $r = mysqli_fetch_assoc($res);
-
+            
+            if($r == null){
+                header('Location: praias.php');
+            }
+            
         ?>
         <title><?=$r[nmlocal]?> | Praia | GuaruTur | Turismo Guaruj&aacute;</title>
     <body>

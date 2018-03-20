@@ -4,16 +4,19 @@
         <?php
             include('meta.php');
             
-            if($_SERVER['REQUEST_METHOD'] === 'POST'){
-                $idlocal = ( isset($_POST['idlocal']) ) ? $_POST['idlocal'] : null;
+            if($_SERVER['REQUEST_METHOD'] === 'GET'){
+                $id = ( isset($_GET['id']) ) ? $_GET['id'] : null;
             } else {
-                header('Location: mirantes.php');
+                header('Location: atrativos.php');
             }
 
-
-            $query = "SELECT * FROM `local` JOIN `tipo` ON `local`.`idtipo`=`tipo`.`idtipo` WHERE `idlocal` = $idlocal";
+            $query = "SELECT * FROM `local` JOIN `tipo` ON `local`.`idtipo`=`tipo`.`idtipo` WHERE (`local`.`idtipo` = 3 OR `local`.`idtipo` = 5 OR `local`.`idtipo` = 6 OR `local`.`idtipo` = 9) AND `idlocal` = $id";
             $res = mysqli_query($con, $query);
             $r = mysqli_fetch_assoc($res);
+            
+            if($r == null){
+                header('Location: atrativos.php');
+            }
 
         ?>
         <title><?=$r[nmtipo]?> - <?=$r[nmlocal]?> | Atrativos | GuaruTur | Turismo Guaruj&aacute;</title>

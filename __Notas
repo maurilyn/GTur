@@ -31,3 +31,10 @@ Amazon
                                 <a href="http://amzn.to/2F7sD7s" target="amazon"><img class="img-fluid" src="rs/img/banner_amazon_cozinha_728x90.jpg"></a>
                             </div>
                         </div>
+
+
+Botão para links:
+    <form method='post' action='showpraia.php'>
+        <input type='hidden' name='idlocal' value='" . $r[idlocal] . "'>
+        <input type='submit' class='btn btn-outline-info' value='Veja Mais'>
+    </form>

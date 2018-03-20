@@ -14,7 +14,7 @@
         <main>
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-md-12">
+                    <div class="col-md-10 offset-md-1">
                         <div class="row align-items-center">
                             <hr>
                         </div>

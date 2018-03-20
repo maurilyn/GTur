@@ -74,10 +74,7 @@
                                                 <small class='text-muted'>Extens&atilde;o: " . $r[dsextensao] . " metros</small>
                                             </h5>
                                             <p>" . limit_text($r[dslocal], 80) . "</p>
-                                            <form method='post' action='showpraia.php'>
-                                                <input type='hidden' name='idlocal' value='" . $r[idlocal] . "'>
-                                                <input type='submit' class='btn btn-outline-info' value='Veja Mais'>
-                                            </form>
+                                            <p><a class='btn btn-outline-info' role='button' aria-pressed='true' href='showpraia.php?id=" . $r[idlocal] . "&nm=" . $r[nmlocal] . "'>Veja Mais</a></p>
                                         <hr>
                                         </div>
                                     </div>
