@@ -84,6 +84,18 @@
                             </div>
                             <div class="col-md-5">
                                 <img src="rs/img/BrasaoGuaruja.png" alt="Brasão de Guaruj&aacute;" class="img-thumbnail float-right">
+                                <h5>Hino de Guaruj&aacute;</h5>
+                                <p>Guaruj&aacute; nossa gleba querida<br>
+                                jardim feito de encanto e de sol.<br>
+                                Pulsa em ti, a beleza da vida entre os vivos clar&otilde;es do arrebol.<br>
+                                Tuas praias de linda brancura<br>
+                                S&atilde;o recantos de amor e de paz, onde o c&eacute;u azulado procura,<br>
+                                Repousar em manh&atilde;s estivais.<br>
+                                Simbolizam teus fortes em ru&iacute;nas os civismos que a p&acute;tria tu ensinas,<br>
+                                Pois neles h&aacute; trof&acute;us de gl&oacute;ria honrando a hist&oacute;ria de Guaruj&aacute;.<br>
+                                &Eacute;s para n&oacute;s a p&eacute;rola do atl&acirc;ntico, espelho do Brasil, lindo e rom&acirc;ntico.<br>
+                                Primor de artista; j&oacute;ia fagueira, &agrave; Beira-Mar,<br>
+                                N&otilde;o h&aacute; turista que n&atilde;o queira te adorar.</p>
                             </div>
                         </div>
                     </div>
