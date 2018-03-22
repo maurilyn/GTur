@@ -43,7 +43,7 @@
                         </div>
                         <div class="row">
                             <div class="col-md-5 offset-md-1">
-                                <h1><img src="https://png.icons8.com/beach/androidL/48/000000"> Praias</h1>
+                                <h1><img src="https://png.icons8.com/beach/androidL/48/000000"> Praias de Guaruj&aacute;</h1>
                             </div>
                             <div class="col-md-5">
                                 <div class="alert alert-dark text-center" role="alert">
@@ -56,7 +56,7 @@
                             </div>
                             <div class="col-md-10 offset-md-1">
                                 <div class="alert alert-info text-center" role="alert">
-                                    <input class="form-control" id="filtro-nome" placeholder="Pesquisar"/>
+                                    <input class="form-control" id="filtro-nome" placeholder="Pesquisar" autofocus />
                                 </div>
                             </div>
                         </div>

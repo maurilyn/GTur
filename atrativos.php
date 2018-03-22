@@ -4,7 +4,14 @@
         <?php
             include('meta.php');
 
-            $query = "SELECT * FROM `local` JOIN `tipo` ON `local`.`idtipo`=`tipo`.`idtipo` WHERE `local`.`idtipo` = 3 OR `local`.`idtipo` = 5 OR `local`.`idtipo` = 6 OR `local`.`idtipo` = 9 ORDER BY `tipo`.`nmtipo`";
+            $tipo = isset($_GET['q']) ? $_GET['q'] : '';
+
+            if($tipo == ''){
+                $query = "SELECT * FROM `local` JOIN `tipo` ON `local`.`idtipo`=`tipo`.`idtipo` WHERE `local`.`idtipo` = 3 OR `local`.`idtipo` = 5 OR `local`.`idtipo` = 6 OR `local`.`idtipo` = 9 OR `local`.`idtipo` = 10 ORDER BY `tipo`.`nmtipo`";
+            } else {
+                $query = "SELECT * FROM `local` JOIN `tipo` ON `local`.`idtipo`=`tipo`.`idtipo` WHERE `local`.`idtipo` = $tipo ORDER BY `tipo`.`nmtipo`";
+            }
+            
             $res = mysqli_query($con, $query);
 
             function limit_text($text, $limit) {
@@ -38,8 +45,24 @@
                             </ol>
                         </nav>
                         <div class="row">
-                            <div class="col-md-10 offset-md-1">
+                            <div class="col-md-5 offset-md-1">
                                 <h1><img src="https://png.icons8.com/ios/48/000000/souvenirs-filled.png"> Atrativos</h1>
+                            </div>
+                            <div class="col-md-5">
+                                <div class="alert alert-dark text-center" role="alert">
+                                    Filtrar por Tipo:
+                                    <a href="atrativos.php" class="alert-link">Todos</a> | 
+                                    <a href="atrativos.php?q=6" class="alert-link">Aquario</a> |
+                                    <a href="atrativos.php?q=10" class="alert-link">Cinema</a> |
+                                    <a href="atrativos.php?q=9" class="alert-link">Local</a> |
+                                    <a href="atrativos.php?q=3" class="alert-link">Marco</a> | 
+                                    <a href="atrativos.php?q=5" class="alert-link">Teatro</a>
+                                </div>
+                            </div>
+                            <div class="col-md-10 offset-md-1">
+                                <div class="alert alert-info text-center" role="alert">
+                                    <input class="form-control" id="filtro-nome" placeholder="Pesquisar" autofocus />
+                                </div>
                             </div>
                         </div>
                         <?php
@@ -50,6 +73,7 @@
                                         $foto = "nopicture.png";
                                     }
                                 echo "
+                                    <span><p class='sr-only'>" . $r[nmlocal] . "</p>
                                     <div class='row'>
                                         <div class='col-md-3 offset-md-1'>
                                             <img src='rs/img/" . $foto . "' class='rounded img-thumbnail' alt=" . $r[nmlocal] . ">
@@ -63,6 +87,7 @@
                                         </div>
                                     </div>
                                     <hr>
+                                    </span>
                                 ";
                             }
                         ?>
@@ -78,5 +103,17 @@
                 include('footer.php');
             ?>
         </footer>
+        <script>
+            $('#filtro-nome').keyup(function() {
+                var nomeFiltro = $(this).val().toLowerCase();
+                console.log(nomeFiltro);
+                $('body').find('span').each(function() {
+                    var conteudoCelula = $(this).find('p:first').text();
+                    console.log(conteudoCelula);
+                    var corresponde = conteudoCelula.toLowerCase().indexOf(nomeFiltro) >= 0;
+                    $(this).css('display', corresponde ? '' : 'none');
+                });
+            });            
+        </script>
     </body>
 </html>
