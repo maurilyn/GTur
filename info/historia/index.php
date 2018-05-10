@@ -2,13 +2,13 @@
 <html lang="pt-br">
     <head>
         <?php
-            include('meta.php');
+            include('../../meta.php');
         ?>
         <title>Hist&oacute;ria | GuaruTur | Turismo Guaruj&aacute;</title>
     <body>
         <menu>
             <?php
-                include('menu.php');
+                include('../../menu.php');
             ?>
         </menu>
         <main>
@@ -35,8 +35,8 @@
                         <div class="row">
                             <div class="col-md-10 offset-md-1">
                                 <p style="text-indent: 1.5em;">
-                                    <img src="rs/img/historiaCarrosdeBanho.jpg" alt="Carros de Banho" class="img-thumbnail float-right">
-                                    <img src="rs/img/historiaHotelLaPlage.jpg" alt="Grande Hotel La Plage" class="img-thumbnail float-right">
+                                    <img src="../../rs/img/historiaCarrosdeBanho.jpg" alt="Carros de Banho" class="img-thumbnail float-right">
+                                    <img src="../../rs/img/historiaHotelLaPlage.jpg" alt="Grande Hotel La Plage" class="img-thumbnail float-right">
                                     A cidade de Guaruj&aacute;, situada na Ilha de Santo Amaro, foi visitada pela
                                     primeira vez no dia 22 de Janeiro de 1502 pelos exploradores portugueses Andr&eacute;
                                     Gon&ccedil;alves, Am&eacute;rico Vesp&uacute;cio e suas armadas. Mais precisamente, essa visita
@@ -71,7 +71,7 @@
                                     Dois Santos Padroeiros
                                 </h3>
                                 <p style="text-indent: 1.5em;">
-                                    <img src="rs/img/historiaGuarujaAntiga.jpg" alt="Carros de Banho" class="img-thumbnail float-left">
+                                    <img src="../../rs/img/historiaGuarujaAntiga.jpg" alt="Carros de Banho" class="img-thumbnail float-left">
                                     A primeira manifesta&ccedil;&atilde;o religiosa em louvor a Santo Amaro aconteceu em
                                     1545, dois anos ap&oacute;s o batismo da ilha, quando o comerciante portugu&ecirc;s Jos&eacute;
                                     Adorno inaugurou uma capela para o santo. Apesar de n&atilde;o existir qualquer vest&iacute;gio
@@ -114,7 +114,7 @@
         </main>
         <footer>
             <?php
-                include('footer.php');
+                include('../../footer.php');
             ?>
         </footer>
     </body>

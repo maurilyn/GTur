@@ -1,0 +1,430 @@
+[10-May-2018 14:41:51 UTC] PHP Warning:  include(meta.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/praias/index.php on line 5
+[10-May-2018 14:41:51 UTC] PHP Stack trace:
+[10-May-2018 14:41:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/praias/index.php:0
+[10-May-2018 14:41:51 UTC] PHP Warning:  include(): Failed opening 'meta.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/praias/index.php on line 5
+[10-May-2018 14:41:51 UTC] PHP Stack trace:
+[10-May-2018 14:41:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/praias/index.php:0
+[10-May-2018 14:41:51 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/praias/index.php on line 10
+[10-May-2018 14:41:51 UTC] PHP Stack trace:
+[10-May-2018 14:41:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/praias/index.php:0
+[10-May-2018 14:41:51 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/praias/index.php:10
+[10-May-2018 14:41:51 UTC] PHP Warning:  include(menu.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/praias/index.php on line 26
+[10-May-2018 14:41:51 UTC] PHP Stack trace:
+[10-May-2018 14:41:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/praias/index.php:0
+[10-May-2018 14:41:51 UTC] PHP Warning:  include(): Failed opening 'menu.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/praias/index.php on line 26
+[10-May-2018 14:41:51 UTC] PHP Stack trace:
+[10-May-2018 14:41:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/praias/index.php:0
+[10-May-2018 14:41:51 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/praias/index.php on line 64
+[10-May-2018 14:41:51 UTC] PHP Stack trace:
+[10-May-2018 14:41:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/praias/index.php:0
+[10-May-2018 14:41:51 UTC] PHP   2. mysqli_fetch_assoc() /home/ubuntu/workspace/praias/index.php:64
+[10-May-2018 14:41:51 UTC] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/praias/index.php on line 94
+[10-May-2018 14:41:51 UTC] PHP Stack trace:
+[10-May-2018 14:41:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/praias/index.php:0
+[10-May-2018 14:41:51 UTC] PHP Warning:  include(): Failed opening 'footer.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/praias/index.php on line 94
+[10-May-2018 14:41:51 UTC] PHP Stack trace:
+[10-May-2018 14:41:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/praias/index.php:0
+[10-May-2018 14:42:06 UTC] PHP Warning:  include(..\meta.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/praias/index.php on line 5
+[10-May-2018 14:42:06 UTC] PHP Stack trace:
+[10-May-2018 14:42:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/praias/index.php:0
+[10-May-2018 14:42:06 UTC] PHP Warning:  include(): Failed opening '..\meta.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/praias/index.php on line 5
+[10-May-2018 14:42:06 UTC] PHP Stack trace:
+[10-May-2018 14:42:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/praias/index.php:0
+[10-May-2018 14:42:06 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/praias/index.php on line 10
+[10-May-2018 14:42:06 UTC] PHP Stack trace:
+[10-May-2018 14:42:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/praias/index.php:0
+[10-May-2018 14:42:06 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/praias/index.php:10
+[10-May-2018 14:42:06 UTC] PHP Warning:  include(menu.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/praias/index.php on line 26
+[10-May-2018 14:42:06 UTC] PHP Stack trace:
+[10-May-2018 14:42:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/praias/index.php:0
+[10-May-2018 14:42:06 UTC] PHP Warning:  include(): Failed opening 'menu.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/praias/index.php on line 26
+[10-May-2018 14:42:06 UTC] PHP Stack trace:
+[10-May-2018 14:42:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/praias/index.php:0
+[10-May-2018 14:42:06 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/praias/index.php on line 64
+[10-May-2018 14:42:06 UTC] PHP Stack trace:
+[10-May-2018 14:42:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/praias/index.php:0
+[10-May-2018 14:42:06 UTC] PHP   2. mysqli_fetch_assoc() /home/ubuntu/workspace/praias/index.php:64
+[10-May-2018 14:42:06 UTC] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/praias/index.php on line 94
+[10-May-2018 14:42:06 UTC] PHP Stack trace:
+[10-May-2018 14:42:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/praias/index.php:0
+[10-May-2018 14:42:06 UTC] PHP Warning:  include(): Failed opening 'footer.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/praias/index.php on line 94
+[10-May-2018 14:42:06 UTC] PHP Stack trace:
+[10-May-2018 14:42:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/praias/index.php:0
+[10-May-2018 14:42:14 UTC] PHP Warning:  include(\..\meta.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/praias/index.php on line 5
+[10-May-2018 14:42:14 UTC] PHP Stack trace:
+[10-May-2018 14:42:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/praias/index.php:0
+[10-May-2018 14:42:14 UTC] PHP Warning:  include(): Failed opening '\..\meta.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/praias/index.php on line 5
+[10-May-2018 14:42:14 UTC] PHP Stack trace:
+[10-May-2018 14:42:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/praias/index.php:0
+[10-May-2018 14:42:14 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/praias/index.php on line 10
+[10-May-2018 14:42:14 UTC] PHP Stack trace:
+[10-May-2018 14:42:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/praias/index.php:0
+[10-May-2018 14:42:14 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/praias/index.php:10
+[10-May-2018 14:42:14 UTC] PHP Warning:  include(menu.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/praias/index.php on line 26
+[10-May-2018 14:42:14 UTC] PHP Stack trace:
+[10-May-2018 14:42:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/praias/index.php:0
+[10-May-2018 14:42:14 UTC] PHP Warning:  include(): Failed opening 'menu.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/praias/index.php on line 26
+[10-May-2018 14:42:14 UTC] PHP Stack trace:
+[10-May-2018 14:42:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/praias/index.php:0
+[10-May-2018 14:42:14 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/praias/index.php on line 64
+[10-May-2018 14:42:14 UTC] PHP Stack trace:
+[10-May-2018 14:42:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/praias/index.php:0
+[10-May-2018 14:42:14 UTC] PHP   2. mysqli_fetch_assoc() /home/ubuntu/workspace/praias/index.php:64
+[10-May-2018 14:42:14 UTC] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/praias/index.php on line 94
+[10-May-2018 14:42:14 UTC] PHP Stack trace:
+[10-May-2018 14:42:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/praias/index.php:0
+[10-May-2018 14:42:14 UTC] PHP Warning:  include(): Failed opening 'footer.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/praias/index.php on line 94
+[10-May-2018 14:42:14 UTC] PHP Stack trace:
+[10-May-2018 14:42:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/praias/index.php:0
+[10-May-2018 14:42:22 UTC] PHP Warning:  include(\meta.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/praias/index.php on line 5
+[10-May-2018 14:42:22 UTC] PHP Stack trace:
+[10-May-2018 14:42:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/praias/index.php:0
+[10-May-2018 14:42:22 UTC] PHP Warning:  include(): Failed opening '\meta.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/praias/index.php on line 5
+[10-May-2018 14:42:22 UTC] PHP Stack trace:
+[10-May-2018 14:42:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/praias/index.php:0
+[10-May-2018 14:42:22 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/praias/index.php on line 10
+[10-May-2018 14:42:22 UTC] PHP Stack trace:
+[10-May-2018 14:42:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/praias/index.php:0
+[10-May-2018 14:42:22 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/praias/index.php:10
+[10-May-2018 14:42:22 UTC] PHP Warning:  include(menu.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/praias/index.php on line 26
+[10-May-2018 14:42:22 UTC] PHP Stack trace:
+[10-May-2018 14:42:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/praias/index.php:0
+[10-May-2018 14:42:22 UTC] PHP Warning:  include(): Failed opening 'menu.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/praias/index.php on line 26
+[10-May-2018 14:42:22 UTC] PHP Stack trace:
+[10-May-2018 14:42:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/praias/index.php:0
+[10-May-2018 14:42:22 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/praias/index.php on line 64
+[10-May-2018 14:42:22 UTC] PHP Stack trace:
+[10-May-2018 14:42:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/praias/index.php:0
+[10-May-2018 14:42:22 UTC] PHP   2. mysqli_fetch_assoc() /home/ubuntu/workspace/praias/index.php:64
+[10-May-2018 14:42:22 UTC] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/praias/index.php on line 94
+[10-May-2018 14:42:22 UTC] PHP Stack trace:
+[10-May-2018 14:42:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/praias/index.php:0
+[10-May-2018 14:42:22 UTC] PHP Warning:  include(): Failed opening 'footer.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/praias/index.php on line 94
+[10-May-2018 14:42:22 UTC] PHP Stack trace:
+[10-May-2018 14:42:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/praias/index.php:0
+[10-May-2018 14:42:29 UTC] PHP Warning:  include(.\meta.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/praias/index.php on line 5
+[10-May-2018 14:42:29 UTC] PHP Stack trace:
+[10-May-2018 14:42:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/praias/index.php:0
+[10-May-2018 14:42:29 UTC] PHP Warning:  include(): Failed opening '.\meta.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/praias/index.php on line 5
+[10-May-2018 14:42:29 UTC] PHP Stack trace:
+[10-May-2018 14:42:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/praias/index.php:0
+[10-May-2018 14:42:29 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/praias/index.php on line 10
+[10-May-2018 14:42:29 UTC] PHP Stack trace:
+[10-May-2018 14:42:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/praias/index.php:0
+[10-May-2018 14:42:29 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/praias/index.php:10
+[10-May-2018 14:42:29 UTC] PHP Warning:  include(menu.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/praias/index.php on line 26
+[10-May-2018 14:42:29 UTC] PHP Stack trace:
+[10-May-2018 14:42:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/praias/index.php:0
+[10-May-2018 14:42:29 UTC] PHP Warning:  include(): Failed opening 'menu.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/praias/index.php on line 26
+[10-May-2018 14:42:29 UTC] PHP Stack trace:
+[10-May-2018 14:42:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/praias/index.php:0
+[10-May-2018 14:42:29 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/praias/index.php on line 64
+[10-May-2018 14:42:29 UTC] PHP Stack trace:
+[10-May-2018 14:42:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/praias/index.php:0
+[10-May-2018 14:42:29 UTC] PHP   2. mysqli_fetch_assoc() /home/ubuntu/workspace/praias/index.php:64
+[10-May-2018 14:42:29 UTC] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/praias/index.php on line 94
+[10-May-2018 14:42:29 UTC] PHP Stack trace:
+[10-May-2018 14:42:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/praias/index.php:0
+[10-May-2018 14:42:29 UTC] PHP Warning:  include(): Failed opening 'footer.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/praias/index.php on line 94
+[10-May-2018 14:42:29 UTC] PHP Stack trace:
+[10-May-2018 14:42:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/praias/index.php:0
+[10-May-2018 14:42:42 UTC] PHP Warning:  include(..\..\meta.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/praias/index.php on line 5
+[10-May-2018 14:42:42 UTC] PHP Stack trace:
+[10-May-2018 14:42:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/praias/index.php:0
+[10-May-2018 14:42:42 UTC] PHP Warning:  include(): Failed opening '..\..\meta.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/praias/index.php on line 5
+[10-May-2018 14:42:42 UTC] PHP Stack trace:
+[10-May-2018 14:42:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/praias/index.php:0
+[10-May-2018 14:42:42 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/praias/index.php on line 10
+[10-May-2018 14:42:42 UTC] PHP Stack trace:
+[10-May-2018 14:42:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/praias/index.php:0
+[10-May-2018 14:42:42 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/praias/index.php:10
+[10-May-2018 14:42:42 UTC] PHP Warning:  include(menu.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/praias/index.php on line 26
+[10-May-2018 14:42:42 UTC] PHP Stack trace:
+[10-May-2018 14:42:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/praias/index.php:0
+[10-May-2018 14:42:42 UTC] PHP Warning:  include(): Failed opening 'menu.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/praias/index.php on line 26
+[10-May-2018 14:42:42 UTC] PHP Stack trace:
+[10-May-2018 14:42:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/praias/index.php:0
+[10-May-2018 14:42:42 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/praias/index.php on line 64
+[10-May-2018 14:42:42 UTC] PHP Stack trace:
+[10-May-2018 14:42:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/praias/index.php:0
+[10-May-2018 14:42:42 UTC] PHP   2. mysqli_fetch_assoc() /home/ubuntu/workspace/praias/index.php:64
+[10-May-2018 14:42:42 UTC] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/praias/index.php on line 94
+[10-May-2018 14:42:42 UTC] PHP Stack trace:
+[10-May-2018 14:42:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/praias/index.php:0
+[10-May-2018 14:42:42 UTC] PHP Warning:  include(): Failed opening 'footer.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/praias/index.php on line 94
+[10-May-2018 14:42:42 UTC] PHP Stack trace:
+[10-May-2018 14:42:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/praias/index.php:0
+[10-May-2018 14:43:10 UTC] PHP Warning:  include(/meta.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/praias/index.php on line 5
+[10-May-2018 14:43:10 UTC] PHP Stack trace:
+[10-May-2018 14:43:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/praias/index.php:0
+[10-May-2018 14:43:10 UTC] PHP Warning:  include(): Failed opening '/meta.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/praias/index.php on line 5
+[10-May-2018 14:43:10 UTC] PHP Stack trace:
+[10-May-2018 14:43:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/praias/index.php:0
+[10-May-2018 14:43:10 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/praias/index.php on line 10
+[10-May-2018 14:43:10 UTC] PHP Stack trace:
+[10-May-2018 14:43:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/praias/index.php:0
+[10-May-2018 14:43:10 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/praias/index.php:10
+[10-May-2018 14:43:10 UTC] PHP Warning:  include(menu.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/praias/index.php on line 26
+[10-May-2018 14:43:10 UTC] PHP Stack trace:
+[10-May-2018 14:43:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/praias/index.php:0
+[10-May-2018 14:43:10 UTC] PHP Warning:  include(): Failed opening 'menu.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/praias/index.php on line 26
+[10-May-2018 14:43:10 UTC] PHP Stack trace:
+[10-May-2018 14:43:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/praias/index.php:0
+[10-May-2018 14:43:10 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/praias/index.php on line 64
+[10-May-2018 14:43:10 UTC] PHP Stack trace:
+[10-May-2018 14:43:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/praias/index.php:0
+[10-May-2018 14:43:10 UTC] PHP   2. mysqli_fetch_assoc() /home/ubuntu/workspace/praias/index.php:64
+[10-May-2018 14:43:10 UTC] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/praias/index.php on line 94
+[10-May-2018 14:43:10 UTC] PHP Stack trace:
+[10-May-2018 14:43:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/praias/index.php:0
+[10-May-2018 14:43:10 UTC] PHP Warning:  include(): Failed opening 'footer.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/praias/index.php on line 94
+[10-May-2018 14:43:10 UTC] PHP Stack trace:
+[10-May-2018 14:43:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/praias/index.php:0
+[10-May-2018 14:43:16 UTC] PHP Warning:  include(menu.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/praias/index.php on line 26
+[10-May-2018 14:43:16 UTC] PHP Stack trace:
+[10-May-2018 14:43:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/praias/index.php:0
+[10-May-2018 14:43:16 UTC] PHP Warning:  include(): Failed opening 'menu.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/praias/index.php on line 26
+[10-May-2018 14:43:16 UTC] PHP Stack trace:
+[10-May-2018 14:43:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/praias/index.php:0
+[10-May-2018 14:43:16 UTC] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/praias/index.php on line 94
+[10-May-2018 14:43:16 UTC] PHP Stack trace:
+[10-May-2018 14:43:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/praias/index.php:0
+[10-May-2018 14:43:16 UTC] PHP Warning:  include(): Failed opening 'footer.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/praias/index.php on line 94
+[10-May-2018 14:43:16 UTC] PHP Stack trace:
+[10-May-2018 14:43:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/praias/index.php:0
+[10-May-2018 14:43:29 UTC] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/praias/index.php on line 94
+[10-May-2018 14:43:29 UTC] PHP Stack trace:
+[10-May-2018 14:43:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/praias/index.php:0
+[10-May-2018 14:43:29 UTC] PHP Warning:  include(): Failed opening 'footer.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/praias/index.php on line 94
+[10-May-2018 14:43:29 UTC] PHP Stack trace:
+[10-May-2018 14:43:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/praias/index.php:0
+[10-May-2018 14:43:54 UTC] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/praias/index.php on line 94
+[10-May-2018 14:43:54 UTC] PHP Stack trace:
+[10-May-2018 14:43:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/praias/index.php:0
+[10-May-2018 14:43:54 UTC] PHP Warning:  include(): Failed opening 'footer.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/praias/index.php on line 94
+[10-May-2018 14:43:54 UTC] PHP Stack trace:
+[10-May-2018 14:43:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/praias/index.php:0
+[10-May-2018 14:43:59 UTC] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/praias/index.php on line 94
+[10-May-2018 14:43:59 UTC] PHP Stack trace:
+[10-May-2018 14:43:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/praias/index.php:0
+[10-May-2018 14:43:59 UTC] PHP Warning:  include(): Failed opening 'footer.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/praias/index.php on line 94
+[10-May-2018 14:43:59 UTC] PHP Stack trace:
+[10-May-2018 14:43:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/praias/index.php:0
+[10-May-2018 14:44:12 UTC] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/praias/index.php on line 94
+[10-May-2018 14:44:12 UTC] PHP Stack trace:
+[10-May-2018 14:44:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/praias/index.php:0
+[10-May-2018 14:44:12 UTC] PHP Warning:  include(): Failed opening 'footer.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/praias/index.php on line 94
+[10-May-2018 14:44:12 UTC] PHP Stack trace:
+[10-May-2018 14:44:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/praias/index.php:0
+[10-May-2018 14:44:15 UTC] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/praias/index.php on line 94
+[10-May-2018 14:44:15 UTC] PHP Stack trace:
+[10-May-2018 14:44:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/praias/index.php:0
+[10-May-2018 14:44:15 UTC] PHP Warning:  include(): Failed opening 'footer.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/praias/index.php on line 94
+[10-May-2018 14:44:15 UTC] PHP Stack trace:
+[10-May-2018 14:44:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/praias/index.php:0
+[10-May-2018 14:44:52 UTC] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/praias/index.php on line 94
+[10-May-2018 14:44:52 UTC] PHP Stack trace:
+[10-May-2018 14:44:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/praias/index.php:0
+[10-May-2018 14:44:52 UTC] PHP Warning:  include(): Failed opening 'footer.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/praias/index.php on line 94
+[10-May-2018 14:44:52 UTC] PHP Stack trace:
+[10-May-2018 14:44:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/praias/index.php:0
+[10-May-2018 14:45:24 UTC] PHP Warning:  include(/meta.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/praias/index.php on line 5
+[10-May-2018 14:45:24 UTC] PHP Stack trace:
+[10-May-2018 14:45:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/praias/index.php:0
+[10-May-2018 14:45:24 UTC] PHP Warning:  include(): Failed opening '/meta.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/praias/index.php on line 5
+[10-May-2018 14:45:24 UTC] PHP Stack trace:
+[10-May-2018 14:45:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/praias/index.php:0
+[10-May-2018 14:45:24 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/praias/index.php on line 10
+[10-May-2018 14:45:24 UTC] PHP Stack trace:
+[10-May-2018 14:45:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/praias/index.php:0
+[10-May-2018 14:45:24 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/praias/index.php:10
+[10-May-2018 14:45:24 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/praias/index.php on line 64
+[10-May-2018 14:45:24 UTC] PHP Stack trace:
+[10-May-2018 14:45:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/praias/index.php:0
+[10-May-2018 14:45:24 UTC] PHP   2. mysqli_fetch_assoc() /home/ubuntu/workspace/praias/index.php:64
+[10-May-2018 14:45:24 UTC] PHP Warning:  include(/footer.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/praias/index.php on line 94
+[10-May-2018 14:45:24 UTC] PHP Stack trace:
+[10-May-2018 14:45:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/praias/index.php:0
+[10-May-2018 14:45:24 UTC] PHP Warning:  include(): Failed opening '/footer.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/praias/index.php on line 94
+[10-May-2018 14:45:24 UTC] PHP Stack trace:
+[10-May-2018 14:45:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/praias/index.php:0
+[10-May-2018 14:48:57 UTC] PHP Warning:  include(meta.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/praias/showpraia.php on line 5
+[10-May-2018 14:48:57 UTC] PHP Stack trace:
+[10-May-2018 14:48:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/praias/showpraia.php:0
+[10-May-2018 14:48:57 UTC] PHP Warning:  include(): Failed opening 'meta.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/praias/showpraia.php on line 5
+[10-May-2018 14:48:57 UTC] PHP Stack trace:
+[10-May-2018 14:48:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/praias/showpraia.php:0
+[10-May-2018 14:48:57 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/praias/showpraia.php on line 15
+[10-May-2018 14:48:57 UTC] PHP Stack trace:
+[10-May-2018 14:48:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/praias/showpraia.php:0
+[10-May-2018 14:48:57 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/praias/showpraia.php:15
+[10-May-2018 14:48:57 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/praias/showpraia.php on line 16
+[10-May-2018 14:48:57 UTC] PHP Stack trace:
+[10-May-2018 14:48:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/praias/showpraia.php:0
+[10-May-2018 14:48:57 UTC] PHP   2. mysqli_fetch_assoc() /home/ubuntu/workspace/praias/showpraia.php:16
+[10-May-2018 14:48:57 UTC] PHP Warning:  include(menu.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/praias/showpraia.php on line 27
+[10-May-2018 14:48:57 UTC] PHP Stack trace:
+[10-May-2018 14:48:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/praias/showpraia.php:0
+[10-May-2018 14:48:57 UTC] PHP Warning:  include(): Failed opening 'menu.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/praias/showpraia.php on line 27
+[10-May-2018 14:48:57 UTC] PHP Stack trace:
+[10-May-2018 14:48:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/praias/showpraia.php:0
+[10-May-2018 14:48:57 UTC] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/praias/showpraia.php on line 102
+[10-May-2018 14:48:57 UTC] PHP Stack trace:
+[10-May-2018 14:48:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/praias/showpraia.php:0
+[10-May-2018 14:48:57 UTC] PHP Warning:  include(): Failed opening 'footer.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/praias/showpraia.php on line 102
+[10-May-2018 14:48:57 UTC] PHP Stack trace:
+[10-May-2018 14:48:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/praias/showpraia.php:0
+[10-May-2018 14:49:38 UTC] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/praias/showpraia.php on line 102
+[10-May-2018 14:49:38 UTC] PHP Stack trace:
+[10-May-2018 14:49:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/praias/showpraia.php:0
+[10-May-2018 14:49:38 UTC] PHP Warning:  include(): Failed opening 'footer.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/praias/showpraia.php on line 102
+[10-May-2018 14:49:38 UTC] PHP Stack trace:
+[10-May-2018 14:49:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/praias/showpraia.php:0
+[10-May-2018 14:49:54 UTC] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/praias/showpraia.php on line 102
+[10-May-2018 14:49:54 UTC] PHP Stack trace:
+[10-May-2018 14:49:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/praias/showpraia.php:0
+[10-May-2018 14:49:54 UTC] PHP Warning:  include(): Failed opening 'footer.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/praias/showpraia.php on line 102
+[10-May-2018 14:49:54 UTC] PHP Stack trace:
+[10-May-2018 14:49:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/praias/showpraia.php:0
+[10-May-2018 14:50:08 UTC] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/praias/showpraia.php on line 102
+[10-May-2018 14:50:08 UTC] PHP Stack trace:
+[10-May-2018 14:50:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/praias/showpraia.php:0
+[10-May-2018 14:50:08 UTC] PHP Warning:  include(): Failed opening 'footer.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/praias/showpraia.php on line 102
+[10-May-2018 14:50:08 UTC] PHP Stack trace:
+[10-May-2018 14:50:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/praias/showpraia.php:0
+[10-May-2018 14:50:11 UTC] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/praias/showpraia.php on line 102
+[10-May-2018 14:50:11 UTC] PHP Stack trace:
+[10-May-2018 14:50:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/praias/showpraia.php:0
+[10-May-2018 14:50:11 UTC] PHP Warning:  include(): Failed opening 'footer.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/praias/showpraia.php on line 102
+[10-May-2018 14:50:11 UTC] PHP Stack trace:
+[10-May-2018 14:50:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/praias/showpraia.php:0
+[10-May-2018 14:50:35 UTC] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/praias/showpraia.php on line 102
+[10-May-2018 14:50:35 UTC] PHP Stack trace:
+[10-May-2018 14:50:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/praias/showpraia.php:0
+[10-May-2018 14:50:35 UTC] PHP Warning:  include(): Failed opening 'footer.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/praias/showpraia.php on line 102
+[10-May-2018 14:50:35 UTC] PHP Stack trace:
+[10-May-2018 14:50:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/praias/showpraia.php:0
+[10-May-2018 14:52:29 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/praias/showpraia.php on line 16
+[10-May-2018 14:52:29 UTC] PHP Stack trace:
+[10-May-2018 14:52:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/praias/showpraia.php:0
+[10-May-2018 14:52:29 UTC] PHP   2. mysqli_fetch_assoc() /home/ubuntu/workspace/praias/showpraia.php:16
+[10-May-2018 15:03:42 UTC] PHP Warning:  include(menu.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/mirantes/index.php on line 24
+[10-May-2018 15:03:42 UTC] PHP Stack trace:
+[10-May-2018 15:03:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/mirantes/index.php:0
+[10-May-2018 15:03:42 UTC] PHP Warning:  include(): Failed opening 'menu.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/mirantes/index.php on line 24
+[10-May-2018 15:03:42 UTC] PHP Stack trace:
+[10-May-2018 15:03:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/mirantes/index.php:0
+[10-May-2018 15:04:53 UTC] PHP Warning:  include(meta.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/mirantes/showmirante.php on line 5
+[10-May-2018 15:04:53 UTC] PHP Stack trace:
+[10-May-2018 15:04:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/mirantes/showmirante.php:0
+[10-May-2018 15:04:53 UTC] PHP Warning:  include(): Failed opening 'meta.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/mirantes/showmirante.php on line 5
+[10-May-2018 15:04:53 UTC] PHP Stack trace:
+[10-May-2018 15:04:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/mirantes/showmirante.php:0
+[10-May-2018 15:04:53 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/mirantes/showmirante.php on line 15
+[10-May-2018 15:04:53 UTC] PHP Stack trace:
+[10-May-2018 15:04:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/mirantes/showmirante.php:0
+[10-May-2018 15:04:53 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/mirantes/showmirante.php:15
+[10-May-2018 15:04:53 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/mirantes/showmirante.php on line 16
+[10-May-2018 15:04:53 UTC] PHP Stack trace:
+[10-May-2018 15:04:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/mirantes/showmirante.php:0
+[10-May-2018 15:04:53 UTC] PHP   2. mysqli_fetch_assoc() /home/ubuntu/workspace/mirantes/showmirante.php:16
+[10-May-2018 15:04:53 UTC] PHP Warning:  include(menu.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/mirantes/showmirante.php on line 27
+[10-May-2018 15:04:53 UTC] PHP Stack trace:
+[10-May-2018 15:04:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/mirantes/showmirante.php:0
+[10-May-2018 15:04:53 UTC] PHP Warning:  include(): Failed opening 'menu.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/mirantes/showmirante.php on line 27
+[10-May-2018 15:04:53 UTC] PHP Stack trace:
+[10-May-2018 15:04:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/mirantes/showmirante.php:0
+[10-May-2018 15:04:53 UTC] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/mirantes/showmirante.php on line 101
+[10-May-2018 15:04:53 UTC] PHP Stack trace:
+[10-May-2018 15:04:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/mirantes/showmirante.php:0
+[10-May-2018 15:04:53 UTC] PHP Warning:  include(): Failed opening 'footer.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/mirantes/showmirante.php on line 101
+[10-May-2018 15:04:53 UTC] PHP Stack trace:
+[10-May-2018 15:04:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/mirantes/showmirante.php:0
+[10-May-2018 15:05:13 UTC] PHP Warning:  include(meta.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/mirantes/showmirante.php on line 5
+[10-May-2018 15:05:13 UTC] PHP Stack trace:
+[10-May-2018 15:05:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/mirantes/showmirante.php:0
+[10-May-2018 15:05:13 UTC] PHP Warning:  include(): Failed opening 'meta.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/mirantes/showmirante.php on line 5
+[10-May-2018 15:05:13 UTC] PHP Stack trace:
+[10-May-2018 15:05:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/mirantes/showmirante.php:0
+[10-May-2018 15:05:13 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/mirantes/showmirante.php on line 15
+[10-May-2018 15:05:13 UTC] PHP Stack trace:
+[10-May-2018 15:05:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/mirantes/showmirante.php:0
+[10-May-2018 15:05:13 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/mirantes/showmirante.php:15
+[10-May-2018 15:05:13 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/mirantes/showmirante.php on line 16
+[10-May-2018 15:05:13 UTC] PHP Stack trace:
+[10-May-2018 15:05:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/mirantes/showmirante.php:0
+[10-May-2018 15:05:13 UTC] PHP   2. mysqli_fetch_assoc() /home/ubuntu/workspace/mirantes/showmirante.php:16
+[10-May-2018 15:05:13 UTC] PHP Warning:  include(menu.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/mirantes/showmirante.php on line 27
+[10-May-2018 15:05:13 UTC] PHP Stack trace:
+[10-May-2018 15:05:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/mirantes/showmirante.php:0
+[10-May-2018 15:05:13 UTC] PHP Warning:  include(): Failed opening 'menu.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/mirantes/showmirante.php on line 27
+[10-May-2018 15:05:13 UTC] PHP Stack trace:
+[10-May-2018 15:05:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/mirantes/showmirante.php:0
+[10-May-2018 15:05:13 UTC] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/mirantes/showmirante.php on line 101
+[10-May-2018 15:05:13 UTC] PHP Stack trace:
+[10-May-2018 15:05:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/mirantes/showmirante.php:0
+[10-May-2018 15:05:13 UTC] PHP Warning:  include(): Failed opening 'footer.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/mirantes/showmirante.php on line 101
+[10-May-2018 15:05:13 UTC] PHP Stack trace:
+[10-May-2018 15:05:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/mirantes/showmirante.php:0
+[10-May-2018 15:15:35 UTC] PHP Warning:  include(meta.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/atrativos/index.php on line 5
+[10-May-2018 15:15:35 UTC] PHP Stack trace:
+[10-May-2018 15:15:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/atrativos/index.php:0
+[10-May-2018 15:15:35 UTC] PHP Warning:  include(): Failed opening 'meta.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/atrativos/index.php on line 5
+[10-May-2018 15:15:35 UTC] PHP Stack trace:
+[10-May-2018 15:15:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/atrativos/index.php:0
+[10-May-2018 15:15:35 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/atrativos/index.php on line 15
+[10-May-2018 15:15:35 UTC] PHP Stack trace:
+[10-May-2018 15:15:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/atrativos/index.php:0
+[10-May-2018 15:15:35 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/atrativos/index.php:15
+[10-May-2018 15:15:35 UTC] PHP Warning:  include(menu.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/atrativos/index.php on line 31
+[10-May-2018 15:15:35 UTC] PHP Stack trace:
+[10-May-2018 15:15:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/atrativos/index.php:0
+[10-May-2018 15:15:35 UTC] PHP Warning:  include(): Failed opening 'menu.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/atrativos/index.php on line 31
+[10-May-2018 15:15:35 UTC] PHP Stack trace:
+[10-May-2018 15:15:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/atrativos/index.php:0
+[10-May-2018 15:15:35 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/atrativos/index.php on line 69
+[10-May-2018 15:15:35 UTC] PHP Stack trace:
+[10-May-2018 15:15:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/atrativos/index.php:0
+[10-May-2018 15:15:35 UTC] PHP   2. mysqli_fetch_assoc() /home/ubuntu/workspace/atrativos/index.php:69
+[10-May-2018 15:15:35 UTC] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/atrativos/index.php on line 103
+[10-May-2018 15:15:35 UTC] PHP Stack trace:
+[10-May-2018 15:15:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/atrativos/index.php:0
+[10-May-2018 15:15:35 UTC] PHP Warning:  include(): Failed opening 'footer.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/atrativos/index.php on line 103
+[10-May-2018 15:15:35 UTC] PHP Stack trace:
+[10-May-2018 15:15:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/atrativos/index.php:0
+[10-May-2018 15:43:18 UTC] PHP Warning:  include(meta.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/contato/index.php on line 5
+[10-May-2018 15:43:18 UTC] PHP Stack trace:
+[10-May-2018 15:43:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/contato/index.php:0
+[10-May-2018 15:43:18 UTC] PHP Warning:  include(): Failed opening 'meta.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/contato/index.php on line 5
+[10-May-2018 15:43:18 UTC] PHP Stack trace:
+[10-May-2018 15:43:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/contato/index.php:0
+[10-May-2018 15:43:18 UTC] PHP Warning:  include(menu.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/contato/index.php on line 11
+[10-May-2018 15:43:18 UTC] PHP Stack trace:
+[10-May-2018 15:43:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/contato/index.php:0
+[10-May-2018 15:43:18 UTC] PHP Warning:  include(): Failed opening 'menu.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/contato/index.php on line 11
+[10-May-2018 15:43:18 UTC] PHP Stack trace:
+[10-May-2018 15:43:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/contato/index.php:0
+[10-May-2018 15:43:18 UTC] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/contato/index.php on line 66
+[10-May-2018 15:43:18 UTC] PHP Stack trace:
+[10-May-2018 15:43:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/contato/index.php:0
+[10-May-2018 15:43:18 UTC] PHP Warning:  include(): Failed opening 'footer.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/contato/index.php on line 66
+[10-May-2018 15:43:18 UTC] PHP Stack trace:
+[10-May-2018 15:43:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/contato/index.php:0
+[10-May-2018 15:44:53 UTC] PHP Warning:  include(meta.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/contato/contatok.php on line 5
+[10-May-2018 15:44:53 UTC] PHP Stack trace:
+[10-May-2018 15:44:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/contato/contatok.php:0
+[10-May-2018 15:44:53 UTC] PHP Warning:  include(): Failed opening 'meta.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/contato/contatok.php on line 5
+[10-May-2018 15:44:53 UTC] PHP Stack trace:
+[10-May-2018 15:44:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/contato/contatok.php:0
+[10-May-2018 15:44:53 UTC] PHP Warning:  include(menu.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/contato/contatok.php on line 11
+[10-May-2018 15:44:53 UTC] PHP Stack trace:
+[10-May-2018 15:44:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/contato/contatok.php:0
+[10-May-2018 15:44:53 UTC] PHP Warning:  include(): Failed opening 'menu.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/contato/contatok.php on line 11
+[10-May-2018 15:44:53 UTC] PHP Stack trace:
+[10-May-2018 15:44:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/contato/contatok.php:0
+[10-May-2018 15:44:53 UTC] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/contato/contatok.php on line 54
+[10-May-2018 15:44:53 UTC] PHP Stack trace:
+[10-May-2018 15:44:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/contato/contatok.php:0
+[10-May-2018 15:44:53 UTC] PHP Warning:  include(): Failed opening 'footer.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/contato/contatok.php on line 54
+[10-May-2018 15:44:53 UTC] PHP Stack trace:
+[10-May-2018 15:44:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/contato/contatok.php:0

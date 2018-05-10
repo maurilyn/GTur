@@ -2,13 +2,13 @@
 <html lang="pt-br">
     <head>
         <?php
-            include('meta.php');
+            include('../meta.php');
         ?>
-        <title>Contato / Sobre | GuaruTur | Turismo Guaruj&aacute;</title>
+        <title>Contato | Sobre | GuaruTur | Turismo Guaruj&aacute;</title>
     <body>
         <menu>
             <?php
-                include('menu.php');
+                include('../menu.php');
             ?>
         </menu>
         <main>
@@ -51,7 +51,7 @@
         </main>
         <footer>
             <?php
-                include('footer.php');
+                include('../footer.php');
             ?>
         </footer>
     </body>

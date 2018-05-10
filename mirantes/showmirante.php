@@ -2,29 +2,29 @@
 <html lang="pt-br">
     <head>
         <?php
-            include('meta.php');
+            include('../meta.php');
             
             if($_SERVER['REQUEST_METHOD'] === 'GET'){
                 $id = ( isset($_GET['id']) ) ? $_GET['id'] : null;
             } else {
-                header('Location: compras.php');
+                header('Location: index.php');
             }
 
 
-            $query = "SELECT * FROM `local` JOIN `tipo` ON `local`.`idtipo`=`tipo`.`idtipo` WHERE (`local`.`idtipo` = 7 OR `local`.`idtipo` = 8) AND `idlocal` = $id";
+            $query = "SELECT * FROM `local` WHERE `idtipo` = 2 AND `idlocal` = $id";
             $res = mysqli_query($con, $query);
             $r = mysqli_fetch_assoc($res);
-
-            if($r == null){
-                header('Location: compras.php');
-            }
             
+            if($r == null){
+                header('Location: index.php');
+            }
+
         ?>
-        <title><?=$r[nmtipo]?> <?=$r[nmlocal]?> | Compras | GuaruTur | Turismo Guaruj&aacute;</title>
+        <title><?=$r[nmlocal]?> | Mirante | GuaruTur | Turismo Guaruj&aacute;</title>
     <body>
         <menu>
             <?php
-                include('menu.php');
+                include('../menu.php');
             ?>
         </menu>
         <main>
@@ -37,31 +37,31 @@
                         <nav aria-label="breadcrumb" role="navigation">
                             <ol class="breadcrumb">
                                 <li class="breadcrumb-item"><a href="/"><img src="https://png.icons8.com/ios-glyphs/24/000000/cottage.png"> Inicio</a></li>
-                                <li class="breadcrumb-item"><a href="/compras.php"><img src="https://png.icons8.com/ios-glyphs/24/000000/shopping-bag.png"> Compras</a></li>
-                                <li class="breadcrumb-item active" aria-current="page"><?=$r[nmtipo]?> <?=$r[nmlocal]?></li>
+                                <li class="breadcrumb-item"><a href="/mirantes/"><img src="https://png.icons8.com/ios/24/000000/xlarge-icons-filled.png"> Mirantes</a></li>
+                                <li class="breadcrumb-item active" aria-current="page"><?=$r[nmlocal]?></li>
                             </ol>
                         </nav>
                         <div class="row">
                             <div class="col-md-8 offset-md-2">
-                                <h1><?=$r[nmtipo]?> <?=$r[nmlocal]?> <img src="https://png.icons8.com/ios-glyphs/48/000000/shopping-bag.png"></h1>
+                                <h1>Mirante <?=$r[nmlocal]?> <img src="https://png.icons8.com/ios/48/000000/xlarge-icons-filled.png"></h1>
                                 <?php
                                     if($r[dsfoto] != NULL){
                                 ?>
-                                <img src="rs/img/<?=$r[dsfoto]?>" class="img-fluid" alt="<?=$r[nmlocal]?>">
+                                <img src="/rs/img/<?=$r[dsfoto]?>" class="img-fluid" alt="<?=$r[nmlocal]?>">
                                 <?php
                                     } else {
                                 ?>
-                                <img src="rs/img/nopicture.png" class="img-fluid" width="200" alt="Sem foto por enquanto"><br>
+                                <img src="/rs/img/nopicture.png" class="img-fluid" width="200" alt="Sem foto por enquanto"><br>
                                 <?php
                                     }
                                 ?>
+                                <span class="badge badge-light"><?=$r[nmlocal]?> tem <?=$r[dsextensao]?> metros de altura.</span>
                                 <p>&nbsp;</p>
                                 <p style="text-indent: 1.5em;"><?=$r[dslocal]?></p>
                                 <p>&nbsp;</p>
-                                <h4><img src="https://png.icons8.com/ios/28/000000/open-sign.png"> Hor&aacute;rio de Funcionamento:</h4>
-                                <p><?=$r[dshorario]?></p>
+                                <h4><img src="https://png.icons8.com/enter/ios7/24/000000"> Acesso: <small class="text-muted"><?=$r[dshorario]?></small></h4>
                                 <p>&nbsp;</p>
-                                <h4><img src="https://png.icons8.com/win10/28/handshake.png" title="Handshake" width="24" height="24"> Facilidades:</h4>
+                                <h4><img src="https://png.icons8.com/win10/24/handshake.png" title="Handshake" width="24" height="24"> Facilidades:</h4>
                                     <?php
                                         if($r[icestacionamento] == 1){
                                             echo "<h5><img src='https://png.icons8.com/estacionamento/ios7/50/000000' alt='Estacionamento'> 
@@ -75,7 +75,7 @@
                                         }
                                         if($r[icalimentacao] == 1){
                                             echo "<h5><img src='https://png.icons8.com/comida/ios7/50/000000' alt='Alimenta&ccedil;&atilde;o Próxima'>
-                                                <span class='badge badge-primary'>Alimenta&ccedil;&atilde;o</span>
+                                                <span class='badge badge-primary'>Alimenta&ccedil;&atilde;o Pr&oacute;xima</span>
                                                 </h5>";
                                         }
                                         if($r[icacessibilidade] == 1){
@@ -84,16 +84,7 @@
                                                 </h5>";
                                         }
                                     ?>
-                                <p>&nbsp;</p>
-                                <?php
-                                    if($r[dssite] != NULL){
-                                ?>
-                                <h4><img src="https://png.icons8.com/ios/28/000000/internet.png"> Site:</h4>
-                                <a href="http://<?=$r[dssite]?>" target="_new"><?=$r[dssite]?></a>
-                                <p>&nbsp;</p>
-                                <?php
-                                    }
-                                ?>
+                                    <p>&nbsp;</p>
                                 <h4><img src="https://png.icons8.com/place-marker/ios7/24/000000"> Localiza&ccedil;&atilde;o:</h4>
                                 <iframe class="sombra" width="100%" height="600" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/view?key=AIzaSyASyT70pbnOqbTVWFnMG17yDFzw_kWZXNo&center=<?=$r[dslat]?>,<?=$r[dslong]?>&zoom=19</iframe>&maptype=satellite" allowfullscreen></iframe>
                             </div>
@@ -107,7 +98,7 @@
         </main>
         <footer>
             <?php
-                include('footer.php');
+                include('../footer.php');
             ?>
         </footer>
     </body>

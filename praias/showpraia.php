@@ -2,12 +2,12 @@
 <html lang="pt-br">
     <head>
         <?php
-            include('meta.php');
+            include('../meta.php');
             
             if($_SERVER['REQUEST_METHOD'] === 'GET'){
                 $id = ( isset($_GET['id']) ) ? $_GET['id'] : null;
             } else {
-                header('Location: praias.php');
+                header('Location: index.php');
             }
 
 
@@ -16,7 +16,7 @@
             $r = mysqli_fetch_assoc($res);
             
             if($r == null){
-                header('Location: praias.php');
+                header('Location: index.php');
             }
             
         ?>
@@ -24,7 +24,7 @@
     <body>
         <menu>
             <?php
-                include('menu.php');
+                include('../menu.php');
             ?>
         </menu>
         <main>
@@ -37,14 +37,14 @@
                         <nav aria-label="breadcrumb" role="navigation">
                             <ol class="breadcrumb">
                                 <li class="breadcrumb-item"><a href="/"><img src="https://png.icons8.com/ios-glyphs/24/000000/cottage.png"> Inicio</a></li>
-                                <li class="breadcrumb-item"><a href="/praias.php"><img src="https://png.icons8.com/beach/androidL/24/000000"> Praias</a></li>
+                                <li class="breadcrumb-item"><a href="/praias/"><img src="https://png.icons8.com/beach/androidL/24/000000"> Praias</a></li>
                                 <li class="breadcrumb-item active" aria-current="page"><?=$r[nmlocal]?></li>
                             </ol>
                         </nav>
                         <div class="row">
                             <div class="col-md-8 offset-md-2">
                                 <h1><?=$r[nmlocal]?> <img src="https://png.icons8.com/beach/androidL/48/000000"></h1>
-                                <img src="rs/img/<?=$r[dsfoto]?>" class="img-fluid" alt="<?=$r[nmlocal]?>">
+                                <img src="/rs/img/<?=$r[dsfoto]?>" class="img-fluid" alt="<?=$r[nmlocal]?>">
                                 <span class="badge badge-light"><?=$r[nmlocal]?> tem <?=$r[dsextensao]?> metros de comprimento.</span>
                                 <p>&nbsp;</p>
                                 <p style="text-indent: 1.5em;"><?=$r[dslocal]?></p>
@@ -99,7 +99,7 @@
         </main>
         <footer>
             <?php
-                include('footer.php');
+                include('../footer.php');
             ?>
         </footer>
     </body>

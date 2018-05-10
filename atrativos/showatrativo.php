@@ -2,12 +2,12 @@
 <html lang="pt-br">
     <head>
         <?php
-            include('meta.php');
+            include('../meta.php');
             
             if($_SERVER['REQUEST_METHOD'] === 'GET'){
                 $id = ( isset($_GET['id']) ) ? $_GET['id'] : null;
             } else {
-                header('Location: atrativos.php');
+                header('Location: index.php');
             }
 
             $query = "SELECT * FROM `local` JOIN `tipo` ON `local`.`idtipo`=`tipo`.`idtipo` WHERE (`local`.`idtipo` = 3 OR `local`.`idtipo` = 5 OR `local`.`idtipo` = 6 OR `local`.`idtipo` = 9) AND `idlocal` = $id";
@@ -15,7 +15,7 @@
             $r = mysqli_fetch_assoc($res);
             
             if($r == null){
-                header('Location: atrativos.php');
+                header('Location: index.php');
             }
 
         ?>
@@ -23,7 +23,7 @@
     <body>
         <menu>
             <?php
-                include('menu.php');
+                include('../menu.php');
             ?>
         </menu>
         <main>
@@ -36,7 +36,7 @@
                         <nav aria-label="breadcrumb" role="navigation">
                             <ol class="breadcrumb">
                                 <li class="breadcrumb-item"><a href="/"><img src="https://png.icons8.com/ios-glyphs/24/000000/cottage.png"> Inicio</a></li>
-                                <li class="breadcrumb-item"><a href="/atrativos.php"><img src="https://png.icons8.com/ios/24/000000/souvenirs-filled.png"> Atrativos</a></li>
+                                <li class="breadcrumb-item"><a href="/atrativos/"><img src="https://png.icons8.com/ios/24/000000/souvenirs-filled.png"> Atrativos</a></li>
                                 <li class="breadcrumb-item active" aria-current="page"><?=$r[nmtipo]?> <?=$r[nmlocal]?></li>
                             </ol>
                         </nav>
@@ -46,11 +46,11 @@
                                 <?php
                                     if($r[dsfoto] != NULL){
                                 ?>
-                                <img src="rs/img/<?=$r[dsfoto]?>" class="img-fluid" alt="<?=$r[nmlocal]?>">
+                                <img src="/rs/img/<?=$r[dsfoto]?>" class="img-fluid" alt="<?=$r[nmlocal]?>">
                                 <?php
                                     } else {
                                 ?>
-                                <img src="rs/img/nopicture.png" class="img-fluid" width="200" alt="Sem foto por enquanto"><br>
+                                <img src="/rs/img/nopicture.png" class="img-fluid" width="200" alt="Sem foto por enquanto"><br>
                                 <?php
                                     }
                                 ?>
@@ -106,7 +106,7 @@
         </main>
         <footer>
             <?php
-                include('footer.php');
+                include('../footer.php');
             ?>
         </footer>
     </body>

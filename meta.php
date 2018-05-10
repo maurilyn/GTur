@@ -62,7 +62,7 @@
 
 body{
     margin-top: 55px;
-    background-image:url('rs/img/<?=$fd?>');
+    background-image:url('/rs/img/<?=$fd?>');
     background-attachment:fixed;
     background-repeat:no-repeat;
     background-size:cover; 

@@ -2,13 +2,13 @@
 <html lang="pt-br">
     <head>
         <?php
-            include('meta.php');
+            include('../../meta.php');
         ?>
         <title>Dados Gerais | GuaruTur | Turismo Guaruj&aacute;</title>
     <body>
         <menu>
             <?php
-                include('menu.php');
+                include('../../menu.php');
             ?>
         </menu>
         <main>
@@ -83,7 +83,7 @@
                                 </ul>
                             </div>
                             <div class="col-md-5">
-                                <img src="rs/img/BrasaoGuaruja.png" alt="Brasão de Guaruj&aacute;" class="img-thumbnail float-right">
+                                <img src="../../rs/img/BrasaoGuaruja.png" alt="Brasão de Guaruj&aacute;" class="img-thumbnail float-right">
                                 <h5>Hino de Guaruj&aacute;</h5>
                                 <p>Guaruj&aacute; nossa gleba querida<br>
                                 jardim feito de encanto e de sol.<br>
@@ -104,7 +104,7 @@
         </main>
         <footer>
             <?php
-                include('footer.php');
+                include('../../footer.php');
             ?>
         </footer>
     </body>
