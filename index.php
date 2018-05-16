@@ -42,7 +42,7 @@
                                     </ol>
                                     <div class="carousel-inner">
                                         <div class="carousel-item active">
-                                            <img class="d-block w-100" src="/rs/img/SlideGalhetas.jpg" class="img-fluid" alt="Mirante das Galhetas">
+                                            <img class="d-block w-100 img-fluid" src="/rs/img/SlideGalhetas.jpg" alt="Mirante das Galhetas">
                                             <div class="carousel-caption d-none d-md-block">
                                                 <h2>Mirante das Galhetas</h2>
                                                 <p>Com aproximadamente 60 metros de altura. Possui uma das vistas mais paradis&iacute;acas de Guaruj&aacute;.</p>
@@ -50,7 +50,7 @@
                                             </div>
                                         </div>
                                         <div class="carousel-item">
-                                            <img class="d-block w-100" src="/rs/img/SlideTombo.jpg" class="img-fluid" alt="Praia do Tombo">
+                                            <img class="d-block w-100 img-fluid" src="/rs/img/SlideTombo.jpg" alt="Praia do Tombo">
                                             <div class="carousel-caption d-none d-md-block">
                                                 <h2>Praia do Tombo</h2>
                                                 <p>A praia &eacute; palco de campeonatos de surf de n&iacute;vel internacional e local preferido para treino de profissionais do esporte.</p>
@@ -58,7 +58,7 @@
                                             </div>
                                         </div>
                                         <div class="carousel-item">
-                                            <img class="d-block w-100" src="/rs/img/SlideAsturias.jpg" class="img-fluid" alt="Praia das Ast&uacute;rias">
+                                            <img class="d-block w-100 img-fluid" src="/rs/img/SlideAsturias.jpg" alt="Praia das Ast&uacute;rias">
                                             <div class="carousel-caption d-none d-md-block">
                                                 <h2>Ast&uacute;rias</h2>
                                                 <p>Praia badalada, bonita e boa para banho.</p>
@@ -66,7 +66,7 @@
                                             </div>
                                         </div>
                                         <div class="carousel-item">
-                                            <img class="d-block w-100" src="/rs/img/SlideEnseada.jpg" class="img-fluid" alt="Praia da Enseada">
+                                            <img class="d-block w-100 img-fluid" src="/rs/img/SlideEnseada.jpg" alt="Praia da Enseada">
                                             <div class="carousel-caption d-none d-md-block">
                                                 <h2>Enseada</h2>
                                                 <p>Praia onde h&aacute; a maior concentra&ccedil;&atilde;o de hot&eacute;is e pousadas da cidade e importantes eventos esportivos s&atilde;o realizados no agito do ver&atilde;o.</p>
@@ -99,7 +99,7 @@
                                         <!--<h4 class="card-title">Sta</h4>-->
                                         <p class="card-text">Guaruj&aacute; possui mais de 22km de praias de beleza inigual&aacute;vel, de incr&iacute;vel brancura e de excelente balneabilidade o ano todo.</p>
                                         <a href="/praias/" class="btn btn-primary">Veja mais</a>
-                                        </div>
+                                    </div>
                                 </div>                        
                             </div>
                             <div class="col-md-3">
@@ -111,7 +111,7 @@
                                     <div class="card-body">
                                         <p class="card-text">Os Shoppings e as feiras de artesanatos da cidade oferecem diversas op&ccedil;&otilde;es de compras para atender todos os tipos de visitantes.</p>
                                         <a href="/compras/" class="btn btn-primary">Veja mais</a>
-                                        </div>
+                                    </div>
                                 </div>                        
                             </div>
                             <div class="col-md-3">
@@ -123,7 +123,7 @@
                                     <div class="card-body">
                                         <p class="card-text">Aquario, Teatro, Locais badalados, Atra&ccedil;&otilde;es e Marcos hist&oacute;ricos s&atilde;o algumas das &oacute;timas op&ccedil;&otilde;es de visita na cidade.</p>
                                         <a href="/atrativos/" class="btn btn-primary">Veja mais</a>
-                                        </div>
+                                    </div>
                                 </div>                        
                             </div>
                             <div class="col-md-3">
@@ -135,13 +135,12 @@
                                     <div class="card-body">
                                         <p class="card-text">S&atilde;o seis mirantes com vistas deslumbrantes de nossas praias. Alguns deles s&atilde;o cen&aacute;rios de pousos e decolagens de parapente e tamb&eacute;m para a pratica de rapel.</p>
                                         <a href="/mirantes/" class="btn btn-primary">Veja mais</a>
-                                        </div>
+                                    </div>
                                 </div>                        
                             </div>
                         </div>
                         <div class="row align-items-center">
                             <hr>
-                        </div>
                         </div>
                     </div>
                 </div>
