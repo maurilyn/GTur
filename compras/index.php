@@ -18,6 +18,7 @@
 
         ?>
         <title>Compras | GuaruTur | Turismo Guaruj&aacute;</title>
+    </head>
     <body>
         <menu>
             <?php

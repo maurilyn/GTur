@@ -20,6 +20,7 @@
 
         ?>
         <title>Praias de Guaruj&aacute; | GuaruTur | Turismo Guaruj&aacute;</title>
+    </head>
     <body>
         <menu>
             <?php

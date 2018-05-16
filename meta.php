@@ -16,7 +16,7 @@
   gtag('config', 'UA-2153506-11');
 </script>
 
-<meta charset="utf-8" >
+<meta charset="utf-8"/>
 <meta name="robots" content="index, follow">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="description" content="GuaruTur, o mais completo site de informa&ccedil;&otilde;es tur&iacute;sticas de Guaruj&aacute; - SP. Famosa pelas suas belezas naturais, praias que cercam a regi&atilde;o e por seu potencial tur&iacute;stico, &eacute; considerada uma das cidades mais bonitas do litoral, conhecida tamb&eacute;m como P&eacute;rola do Atl&acirc;ntico. Mirantes, trilhas e Marcos hist&oacute;ricos da cidade de Guaruj&aacute; - SP. Localize os melhores locais para compras e entretenimento em Guaruj&aacute; - SP" />
@@ -29,8 +29,7 @@
 
 <?php
     include('con.php');
-    header("Content-type: text/html; charset=iso-8859-1");
-    
+
     $fundo = rand(0,3);
 
     switch ($fundo) {

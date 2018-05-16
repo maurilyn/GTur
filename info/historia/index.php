@@ -5,6 +5,7 @@
             include('../../meta.php');
         ?>
         <title>Hist&oacute;ria | GuaruTur | Turismo Guaruj&aacute;</title>
+    </head>
     <body>
         <menu>
             <?php

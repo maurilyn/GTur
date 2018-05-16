@@ -21,6 +21,7 @@
             
         ?>
         <title><?=$r[nmtipo]?> <?=$r[nmlocal]?> | Compras | GuaruTur | Turismo Guaruj&aacute;</title>
+    </head>
     <body>
         <menu>
             <?php

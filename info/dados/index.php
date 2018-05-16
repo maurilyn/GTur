@@ -5,6 +5,7 @@
             include('../../meta.php');
         ?>
         <title>Dados Gerais | GuaruTur | Turismo Guaruj&aacute;</title>
+    </head>
     <body>
         <menu>
             <?php

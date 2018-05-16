@@ -18,6 +18,7 @@
 
         ?>
         <title>Mirantes | GuaruTur | Turismo Guaruj&aacute;</title>
+    </head>
     <body>
         <menu>
             <?php

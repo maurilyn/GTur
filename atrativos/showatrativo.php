@@ -20,6 +20,7 @@
 
         ?>
         <title><?=$r[nmtipo]?> - <?=$r[nmlocal]?> | Atrativos | GuaruTur | Turismo Guaruj&aacute;</title>
+    </head>
     <body>
         <menu>
             <?php

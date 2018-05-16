@@ -21,6 +21,7 @@
             
         ?>
         <title><?=$r[nmlocal]?> | Praia | GuaruTur | Turismo Guaruj&aacute;</title>
+    </head>
     <body>
         <menu>
             <?php
